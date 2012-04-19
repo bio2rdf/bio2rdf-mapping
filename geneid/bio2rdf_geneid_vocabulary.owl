@@ -1,0 +1,478 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY geneid_resource "http://bio2rdf.org/geneid_resource:" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+    <!ENTITY geneid_vocabulary "http://bio2rdf.org/geneid_vocabulary:" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:geneid_vocabulary="http://bio2rdf.org/geneid_vocabulary:"
+     xmlns:geneid_resource="http://bio2rdf.org/geneid_resource:"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Ontology rdf:about="http://bio2rdf.org/bio2rdf_geneid_vocabulary.owl">
+        <terms:creator rdf:datatype="&xsd;Name">Alison Callahan</terms:creator>
+        <imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/geneid_resource:Gene -->
+
+    <Class rdf:about="&geneid_resource;Gene">
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_resource:Pub -->
+
+    <Class rdf:about="&geneid_resource;Pub">
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:BioSource -->
+
+    <Class rdf:about="&geneid_vocabulary;BioSource">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010000"/>
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:Gene-commentary -->
+
+    <Class rdf:about="&geneid_vocabulary;Gene-commentary">
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:Gene-ref -->
+
+    <Class rdf:about="&geneid_vocabulary;Gene-ref">
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:Gene-source -->
+
+    <Class rdf:about="&geneid_vocabulary;Gene-source">
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:Gene-trak -->
+
+    <Class rdf:about="&geneid_vocabulary;Gene-trak">
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:Maps -->
+
+    <Class rdf:about="&geneid_vocabulary;Maps">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010065"/>
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:OrgMod -->
+
+    <Class rdf:about="&geneid_vocabulary;OrgMod">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:Other-source -->
+
+    <Class rdf:about="&geneid_vocabulary;Other-source">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:Packed-seqint -->
+
+    <Class rdf:about="&geneid_vocabulary;Packed-seqint">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:Prot-ref -->
+
+    <Class rdf:about="&geneid_vocabulary;Prot-ref">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:RNA-ref -->
+
+    <Class rdf:about="&geneid_vocabulary;RNA-ref">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:Seq-loc -->
+
+    <Class rdf:about="&geneid_vocabulary;Seq-loc">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:Seq-loc-mix -->
+
+    <Class rdf:about="&geneid_vocabulary;Seq-loc-mix">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:SubSource -->
+
+    <Class rdf:about="&geneid_vocabulary;SubSource">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:Trna-ext -->
+
+    <Class rdf:about="&geneid_vocabulary;Trna-ext">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/geneid_vocabulary:Xtra-Terms -->
+
+    <Class rdf:about="&geneid_vocabulary;Xtra-Terms">
+
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_010035 -->
+
+    <rdf:Description rdf:about="&resource;SIO_010035"/>
+    
+<rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:geneType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:origin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:db">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:gene">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:gene-source">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:src">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:gene-display">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:extra-terms">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:genus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:mod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:subtype">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:div">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:prot">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:processed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:type">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:accession">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:to">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:gi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:products">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:refs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:pmid">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:pubmedRef">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:genomic-coords">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:heading">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:post-text">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:value">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:non-unique-keys">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:from/lim">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:mix">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:attrib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:point">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:track-info">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:status">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:source">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:genome">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:taxname">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:xRef">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:syn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:src-int">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:src-str2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:locus-display">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:unique-keys">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_resource:discontinue-date">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:species">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:subname">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:gcode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:subType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:locus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:src-str1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:seqs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:strand">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:comments">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:xtra-iq">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:tag">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:locus-tag">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:text">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:xtra-properties">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:geneid">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:lineage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:ncbiRef">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:version">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:from">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:anchor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:comment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:pre-text">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:ec">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:activity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:common">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:to/lim">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:url">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:rna">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:textseq-id">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:subspecies">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:mgcode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:maploc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:properties">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:xtra-index-terms">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:current-id">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:tRNA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:ncbieaa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:codon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:packed-int">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_resource:display-str">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:map-type">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:anticodon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:level">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:fixed-level">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:homology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:fuzz/lim">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/geneid_vocabulary:virus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
