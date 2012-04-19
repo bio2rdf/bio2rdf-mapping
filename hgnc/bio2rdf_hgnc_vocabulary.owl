@@ -1,0 +1,933 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY hgnc_resource "http://bio2rdf.org/hgnc_resource:" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY hgnc_vocabulary "http://bio2rdf.org/hgnc_vocabulary:" >
+    <!ENTITY hugo_vocabulary "http://bio2rdf.org/hugo_vocabulary:" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+    <!ENTITY symbol_vocabulary "http://bio2rdf.org/symbol_vocabulary:" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:symbol_vocabulary="http://bio2rdf.org/symbol_vocabulary:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:hgnc_resource="http://bio2rdf.org/hgnc_resource:"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:hugo_vocabulary="http://bio2rdf.org/hugo_vocabulary:"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:hgnc_vocabulary="http://bio2rdf.org/hgnc_vocabulary:">
+    <Ontology rdf:about="http://bio2rdf.org/bio2rdf_hgnc_vocabulary.owl">
+        <terms:creator>Jose Cruz-Toledo</terms:creator>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:CD -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;CD">
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:COSMIC -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;COSMIC">
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:EnsemblID_mappeddatasuppliedbyEnsembl -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;EnsemblID_mappeddatasuppliedbyEnsembl">
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:EntrezGeneID_mappeddatasuppliedbyNCBI -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;EntrezGeneID_mappeddatasuppliedbyNCBI">
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:HORDE -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;HORDE">
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:IFDB -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;IFDB">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:IMGT -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;IMGT">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:IUPHAR -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;IUPHAR">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:KZNF -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;KZNF">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:LocusSpecificDatabases -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;LocusSpecificDatabases">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:MEROPS -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;MEROPS">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:MGI -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;MGI">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:MouseGenomeDatabaseID_mappeddatasuppliedbyMGI -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;MouseGenomeDatabaseID_mappeddatasuppliedbyMGI">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:OMIM -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;OMIM">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:OMIMID_mappeddatasuppliedbyNCBI -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;OMIMID_mappeddatasuppliedbyNCBI">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:Orphanet -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;Orphanet">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:Pseudogene -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;Pseudogene">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:RGD -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;RGD">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:RatGenomeDatabaseID_mappeddatasuppliedbyRGD -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;RatGenomeDatabaseID_mappeddatasuppliedbyRGD">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:RefSeq -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;RefSeq">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:RefSeq_mappeddatasuppliedbyNCBI -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;RefSeq_mappeddatasuppliedbyNCBI">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:Rfam -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;Rfam">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:UCSCID -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;UCSCID">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:UCSCID_mappeddatasuppliedbyUCSC -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;UCSCID_mappeddatasuppliedbyUCSC">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:UniProtID_mappeddatasuppliedbyUniProt -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;UniProtID_mappeddatasuppliedbyUniProt">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:VEGAID -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;VEGAID">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:accessionNumber -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;accessionNumber">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:alias -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;alias">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:approvedSymbol -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;approvedSymbol">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:chromosome -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;chromosome">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:dateNameChanged -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;dateNameChanged">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:dateSymbolChanged -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;dateSymbolChanged">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:ensembl -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;ensembl">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:ensemblGeneID -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;ensemblGeneID">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:entrezGeneID -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;entrezGeneID">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:entrezgeneID -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;entrezgeneID">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:enzymeID -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;enzymeID">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:geneFamilyTag -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;geneFamilyTag">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:locusType -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;locusType">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:mirbase -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;mirbase">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:mouseGenomeDatabaseID -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;mouseGenomeDatabaseID">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:nameAlias -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;nameAlias">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:previousName -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;previousName">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:previousSymbol -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;previousSymbol">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:primaryIDs -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;primaryIDs">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:pubmedID -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;pubmedID">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:recordType -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;recordType">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:refSeqID -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;refSeqID">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:snornabase -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;snornabase">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:specialistDatabaseID -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;specialistDatabaseID">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:specialistDatabaseLinks -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;specialistDatabaseLinks">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:status -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;status">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:symbol -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;symbol">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:uniprot -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;uniprot">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:url -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;url">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xAccession -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xAccession">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xCD -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xCD">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xCOSMIC -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xCOSMIC">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xEC -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xEC">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xEnsembl -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xEnsembl">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xEnsemblGene -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xEnsemblGene">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xEntrezGene -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xEntrezGene">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xHORDE -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xHORDE">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xIFDB -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xIFDB">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xIMGT -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xIMGT">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xIUPHAR -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xIUPHAR">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xKZNF -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xKZNF">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xMEROPS -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xMEROPS">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xMGI -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xMGI">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xMirbase -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xMirbase">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000671"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xMouseGenomeDatabase -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xMouseGenomeDatabase">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xOMIM -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xOMIM">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xOrphanet -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xOrphanet">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xPrimaryID -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xPrimaryID">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xPseudogene -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xPseudogene">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xPubmed -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xPubmed">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xRGD -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xRGD">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xRef -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xRef">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xRefSeq -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xRefSeq">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xRfam -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xRfam">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xSnornabase -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xSnornabase">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xUCSCID -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xUCSCID">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xUniprot -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xUniprot">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:xVEGAID -->
+
+    <ObjectProperty rdf:about="&hgnc_vocabulary;xVEGAID">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/hugo_vocabulary:approvedSymbol -->
+
+    <ObjectProperty rdf:about="&hugo_vocabulary;approvedSymbol">
+
+    </ObjectProperty>
+    
+
+
+    <!-- http://bio2rdf.org/symbol_vocabulary:approvedSymbol -->
+
+    <ObjectProperty rdf:about="&symbol_vocabulary;approvedSymbol">
+
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_resource:PreviousSymbol -->
+
+    <Class rdf:about="&hgnc_resource;PreviousSymbol">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:AccessionNumber -->
+
+    <Class rdf:about="&hgnc_vocabulary;AccessionNumber">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:Alias -->
+
+    <Class rdf:about="&hgnc_vocabulary;Alias">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:EnsemblID_mappeddatasuppliedbyEnsembl -->
+
+    <Class rdf:about="&hgnc_vocabulary;EnsemblID_mappeddatasuppliedbyEnsembl">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:EntrezGeneID_mappeddatasuppliedbyNCBI -->
+
+    <Class rdf:about="&hgnc_vocabulary;EntrezGeneID_mappeddatasuppliedbyNCBI">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:EnzymeID -->
+
+    <Class rdf:about="&hgnc_vocabulary;EnzymeID">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:Gene -->
+
+    <Class rdf:about="&hgnc_vocabulary;Gene">
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:GeneFamilyTag -->
+
+    <Class rdf:about="&hgnc_vocabulary;GeneFamilyTag">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:MouseGenomeDatabaseID_mappeddatasuppliedbyMGI -->
+
+    <Class rdf:about="&hgnc_vocabulary;MouseGenomeDatabaseID_mappeddatasuppliedbyMGI">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:NameAlias -->
+
+    <Class rdf:about="&hgnc_vocabulary;NameAlias">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:OMIMID_mappeddatasuppliedbyNCBI -->
+
+    <Class rdf:about="&hgnc_vocabulary;OMIMID_mappeddatasuppliedbyNCBI">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:PreviousName -->
+
+    <Class rdf:about="&hgnc_vocabulary;PreviousName">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:PubmedID -->
+
+    <Class rdf:about="&hgnc_vocabulary;PubmedID">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:RatGenomeDatabaseID_mappeddatasuppliedbyRGD -->
+
+    <Class rdf:about="&hgnc_vocabulary;RatGenomeDatabaseID_mappeddatasuppliedbyRGD">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:RefSeqID -->
+
+    <Class rdf:about="&hgnc_vocabulary;RefSeqID">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:RefSeq_mappeddatasuppliedbyNCBI -->
+
+    <Class rdf:about="&hgnc_vocabulary;RefSeq_mappeddatasuppliedbyNCBI">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:SpecialistDatabaseID -->
+
+    <Class rdf:about="&hgnc_vocabulary;SpecialistDatabaseID">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:UCSCID_mappeddatasuppliedbyUCSC -->
+
+    <Class rdf:about="&hgnc_vocabulary;UCSCID_mappeddatasuppliedbyUCSC">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:UniProtID_mappeddatasuppliedbyUniProt -->
+
+    <Class rdf:about="&hgnc_vocabulary;UniProtID_mappeddatasuppliedbyUniProt">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hgnc_vocabulary:VEGAID -->
+
+    <Class rdf:about="&hgnc_vocabulary;VEGAID">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000115"/>
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/hugo_vocabulary:Symbol -->
+
+    <Class rdf:about="&hugo_vocabulary;Symbol">
+
+    </Class>
+    
+
+
+    <!-- http://bio2rdf.org/symbol_vocabulary:Symbol -->
+
+    <Class rdf:about="&symbol_vocabulary;Symbol">
+
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_010035 -->
+
+    <rdf:Description rdf:about="&resource;SIO_010035"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+

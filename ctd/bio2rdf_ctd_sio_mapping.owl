@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY ctd_vocabulary "http://bio2rdf.org/ctd_vocabulary:" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://bio2rdf.org/bio2rdf_ctd_sio_mapping.owl#"
+     xml:base="http://bio2rdf.org/bio2rdf_ctd_sio_mapping.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:ctd_vocabulary="http://bio2rdf.org/ctd_vocabulary:">
+    <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_ctd_sio_mapping.owl">
+        <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_ctd_vocabulary.owl"/>
+        <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&terms;creator">
+        <terms:creator rdf:datatype="&xsd;Name">Alison Callahan</terms:creator>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:action -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;action">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:article -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;article">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:chemical -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;chemical">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:disease -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;disease">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:gene -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;gene">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:has-function -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;has-function">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000225"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:in -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;in">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000322"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:is-located-in -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;is-located-in">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000061"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:is-participant-in -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;is-participant-in">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000062"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:organism -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;organism">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:pathway -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;pathway">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:symbol -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;symbol">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:Chemical -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;Chemical">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010004"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:ChemicalDiseaseInteraction -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;ChemicalDiseaseInteraction">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000593"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:ChemicalGeneInteraction -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;ChemicalGeneInteraction">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000593"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/ctd_vocabulary:Disease -->
+
+    <rdf:Description rdf:about="&ctd_vocabulary;Disease">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010299"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
