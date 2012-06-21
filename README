@@ -1,0 +1,9 @@
+BIO2RDF-MAPPINGS
+================
+
+Here you will find OWL ontology files with all classes and object properties used by our scripts. In each directory there will be 3 files:
+1) [DATASETNAME]_sio_mapping.owl: This file has mappings of all classes, object properties and annotation properties to the Semanticscience Integrated Ontology (http://code.google.com/p/semanticscience/wiki/SIO)
+
+2) [DATABASENAME]_vocabulary.owl: A list of all classes, object properties and annotation properties used by the corresponding bio2rdf-script
+
+3) catalog-v001.xml: A mapping file to enable local import of 1) and 2). For more details see: http://protegewiki.stanford.edu/wiki/How_Owl_2.0_Imports_Work
