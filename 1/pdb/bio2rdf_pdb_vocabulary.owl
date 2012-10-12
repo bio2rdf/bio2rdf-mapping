@@ -1,0 +1,3292 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY pdb_vocabulary "http://bio2rdf.org/pdb_vocabulary:" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:pdb_vocabulary="http://bio2rdf.org/pdb_vocabulary:"
+     >
+    <Ontology rdf:about="http://bio2rdf.org/pdb_vocabulary.owl">
+        <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <AnnotationProperty rdf:about="&pdb_vocabulary;description"/>
+    <AnnotationProperty rdf:about="&pdb_vocabulary;mutation"/>
+    <AnnotationProperty rdf:about="&pdb_vocabulary;modification"/>
+    <AnnotationProperty rdf:about="&pdb_vocabulary;details"/>
+    <AnnotationProperty rdf:about="&pdb_vocabulary;experimentalMethod"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:beginsAt -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;beginsAt"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:endsAt -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;endsAt"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasAngleAlpha -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasAngleAlpha"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasAngleBeta -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasAngleBeta"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasAngleGamma -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasAngleGamma"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasAnisoB11 -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasAnisoB11"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasAnisoB12 -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasAnisoB12"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasAnisoB13 -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasAnisoB13"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasAnisoB22 -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasAnisoB22"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasAnisoB23 -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasAnisoB23"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasAnisoB33 -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasAnisoB33"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasAuthor -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasAuthor"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasAverageConstraintViolationsPerResidue -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasAverageConstraintViolationsPerResidue"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasBIsoMax -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasBIsoMax"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasBIsoMean -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasBIsoMean"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasBIsoMin -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasBIsoMin"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasChainPosition -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasChainPosition"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasChemicalFormula -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasChemicalFormula"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasChemicalSubstanceAmount -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasChemicalSubstanceAmount"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasCoefficientMu -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasCoefficientMu"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasConformerSelectionCriteria -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasConformerSelectionCriteria"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasCoordinate -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasCoordinate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasCorrelationCoefficientFoToFc -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasCorrelationCoefficientFoToFc"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasCorrelationCoefficientFoToFcFree -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasCorrelationCoefficientFoToFcFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasCountryOfPublication -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasCountryOfPublication"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasCrossReference -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasCrossReference"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasDOI -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasDOI"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasDataCutoffHighAbsF -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasDataCutoffHighAbsF"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasDataCutoffHighRmsAbsF -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasDataCutoffHighRmsAbsF"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasDataCutoffLowAbsF -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasDataCutoffLowAbsF"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasDetails -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasDetails"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasDevelopmentStage -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasDevelopmentStage"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasDocumentSection -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasDocumentSection"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasEdgeALength -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasEdgeALength"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasEdgeBLength -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasEdgeBLength"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasEdgeCLength -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasEdgeCLength"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasExperimentalFormulaWeight -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasExperimentalFormulaWeight"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasFirstPageNumber -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasFirstPageNumber"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasFormalCharge -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasFormalCharge"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasHelixLegth -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasHelixLegth"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasISBN -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasISBN"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasISSN -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasISSN"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasIsotropicAtomicDisplacement -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasIsotropicAtomicDisplacement"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasIsotropicThermalModel -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasIsotropicThermalModel"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasJournalAbbreviation -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasJournalAbbreviation"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLanguage -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLanguage"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLastPageNumber -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLastPageNumber"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsCrossValidMethod -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsCrossValidMethod"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsDResHigh -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsDResHigh"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsDResLow -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsDResLow"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsNumberParameters -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsNumberParameters"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsNumberReflnsAll -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsNumberReflnsAll"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsNumberReflnsObs -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsNumberReflnsObs"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsNumberReflnsRFree -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsNumberReflnsRFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsNumberRestraints -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsNumberRestraints"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsPercentReflnsObs -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsPercentReflnsObs"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsPercentReflnsRFree -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsPercentReflnsRFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsRFactorAll -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsRFactorAll"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsRFactorObs -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsRFactorObs"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsRFactorRFree -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsRFactorRFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsRFactorRFreeError -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsRFactorRFreeError"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsRFactorRWork -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsRFactorRWork"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsRedundancyReflnsObs -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsRedundancyReflnsObs"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsSigmaF -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsSigmaF"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsSigmaI -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsSigmaI"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsWRFactorRFree -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsWRFactorRFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasLsWRFactorRWork -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasLsWRFactorRWork"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasMaximumTransmissionFactor -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasMaximumTransmissionFactor"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasMedlineId -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasMedlineId"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasMethodToDetermineStruct -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasMethodToDetermineStruct"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasMinimumTransmissionFactor -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasMinimumTransmissionFactor"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasName -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasName"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasNumberOfAtoms -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasNumberOfAtoms"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasNumberOfMonomers -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasNumberOfMonomers"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasNumberOfNonHydrogenAtoms -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasNumberOfNonHydrogenAtoms"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasOccupancy -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasOccupancy"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasOccupancyMax -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasOccupancyMax"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasOccupancyMin -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasOccupancyMin"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasOverallESUR -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasOverallESUR"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasOverallESURFree -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasOverallESURFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasOverallFOMFreeRSet -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasOverallFOMFreeRSet"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasOverallFOMWorkRSet -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasOverallFOMWorkRSet"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasOverallPhaseError -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasOverallPhaseError"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasOverallSUB -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasOverallSUB"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasOverallSUML -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasOverallSUML"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasOverallSURCruickshankDPI -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasOverallSURCruickshankDPI"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasOverallSURFree -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasOverallSURFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasPart -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasPart"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasParticipant -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasParticipant"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasPolymerSequence -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasPolymerSequence"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasProduct -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasProduct"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasPublication -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasPublication"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasPublicationYear -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasPublicationYear"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasPublisher -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasPublisher"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasPubmedId -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasPubmedId"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasRFreeSelectionDetails -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasRFreeSelectionDetails"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasReciprocalAngleAlpha -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasReciprocalAngleAlpha"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasReciprocalAngleBeta -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasReciprocalAngleBeta"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasReciprocalAngleGamma -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasReciprocalAngleGamma"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasReciprocalEdgeALength -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasReciprocalEdgeALength"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasReciprocalEdgeBLength -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasReciprocalEdgeBLength"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasReciprocalEdgeCLength -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasReciprocalEdgeCLength"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasSolventIonProbeRadii -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasSolventIonProbeRadii"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasSolventModelDetails -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasSolventModelDetails"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasSolventModelParamBsol -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasSolventModelParamBsol"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasSolventModelParamKsol -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasSolventModelParamKsol"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasSolventShrinkageRadii -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasSolventShrinkageRadii"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasSolventVdwProbeRadii -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasSolventVdwProbeRadii"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasSource -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasSource"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasSpatialLocation -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasSpatialLocation"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasStartingModel -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasStartingModel"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasStereochemTargetValSpecCase -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasStereochemTargetValSpecCase"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasStereochemistryTargetValues -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasStereochemistryTargetValues"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasTheoreticalFormulaWeight -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasTheoreticalFormulaWeight"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasTitle -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasTitle"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasUnitCell -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasUnitCell"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasVolume -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasVolume"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasVolumeNumber -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasVolumeNumber"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasXCoordinate -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasXCoordinate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasYCoordinate -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasYCoordinate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasZCoordinate -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;hasZCoordinate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:isDerivedFrom -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;isDerivedFrom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:isImmediatelyBefore -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;isImmediatelyBefore"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:isPartOf -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;isPartOf"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:isParticipantIn -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;isParticipantIn"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:isProducedBy -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;isProducedBy"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:isPublishedIn -->
+
+    <ObjectProperty rdf:about="&pdb_vocabulary;isPublishedIn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasStandardDeviation -->
+
+    <DatatypeProperty rdf:about="&pdb_vocabulary;hasStandardDeviation"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:hasValue -->
+
+    <DatatypeProperty rdf:about="&pdb_vocabulary;hasValue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:2PrimeDeoxyinosine5PrimeMonophosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;2PrimeDeoxyinosine5PrimeMonophosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Abstract -->
+
+    <Class rdf:about="&pdb_vocabulary;Abstract"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ActiniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ActiniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Adenine -->
+
+    <Class rdf:about="&pdb_vocabulary;Adenine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Adenosine5PrimeMonophosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;Adenosine5PrimeMonophosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AdenosineFivePrimeTriPhosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;AdenosineFivePrimeTriPhosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Alanine -->
+
+    <Class rdf:about="&pdb_vocabulary;Alanine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AluminumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;AluminumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AmericiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;AmericiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AminoGroup -->
+
+    <Class rdf:about="&pdb_vocabulary;AminoGroup"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AnalyticalAbsortCorrection -->
+
+    <Class rdf:about="&pdb_vocabulary;AnalyticalAbsortCorrection"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AngleAlpha -->
+
+    <Class rdf:about="&pdb_vocabulary;AngleAlpha"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AngleBeta -->
+
+    <Class rdf:about="&pdb_vocabulary;AngleBeta"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AngleGamma -->
+
+    <Class rdf:about="&pdb_vocabulary;AngleGamma"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Aniso_B11 -->
+
+    <Class rdf:about="&pdb_vocabulary;Aniso_B11"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Aniso_B12 -->
+
+    <Class rdf:about="&pdb_vocabulary;Aniso_B12"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Aniso_B13 -->
+
+    <Class rdf:about="&pdb_vocabulary;Aniso_B13"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Aniso_B22 -->
+
+    <Class rdf:about="&pdb_vocabulary;Aniso_B22"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Aniso_B23 -->
+
+    <Class rdf:about="&pdb_vocabulary;Aniso_B23"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Aniso_B33 -->
+
+    <Class rdf:about="&pdb_vocabulary;Aniso_B33"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AntimonyAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;AntimonyAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ArachidonicAcid -->
+
+    <Class rdf:about="&pdb_vocabulary;ArachidonicAcid"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Arginine -->
+
+    <Class rdf:about="&pdb_vocabulary;Arginine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ArgonAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ArgonAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ArsenicAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ArsenicAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Asparagine -->
+
+    <Class rdf:about="&pdb_vocabulary;Asparagine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AsparticAcid -->
+
+    <Class rdf:about="&pdb_vocabulary;AsparticAcid"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AstatineAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;AstatineAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Atom -->
+
+    <Class rdf:about="&pdb_vocabulary;Atom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AtomOccupancy -->
+
+    <Class rdf:about="&pdb_vocabulary;AtomOccupancy"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AtomSpatialLocation -->
+
+    <Class rdf:about="&pdb_vocabulary;AtomSpatialLocation"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:AverageConstraintViolationsPerResidue -->
+
+    <Class rdf:about="&pdb_vocabulary;AverageConstraintViolationsPerResidue"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:BIsoMax -->
+
+    <Class rdf:about="&pdb_vocabulary;BIsoMax"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:BIsoMean -->
+
+    <Class rdf:about="&pdb_vocabulary;BIsoMean"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:BIsoMin -->
+
+    <Class rdf:about="&pdb_vocabulary;BIsoMin"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Bacteria -->
+
+    <Class rdf:about="&pdb_vocabulary;Bacteria"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Baculovirus -->
+
+    <Class rdf:about="&pdb_vocabulary;Baculovirus"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:BariumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;BariumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:BerkeliumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;BerkeliumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:BerylliumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;BerylliumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:BetaStrand -->
+
+    <Class rdf:about="&pdb_vocabulary;BetaStrand"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:BismuthAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;BismuthAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:BohriumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;BohriumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Book -->
+
+    <Class rdf:about="&pdb_vocabulary;Book"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:BoronAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;BoronAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:BromineAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;BromineAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CadmiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;CadmiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CalciumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;CalciumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CalciumIon -->
+
+    <Class rdf:about="&pdb_vocabulary;CalciumIon"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CaliforniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;CaliforniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CanonicalPolymerSequence -->
+
+    <Class rdf:about="&pdb_vocabulary;CanonicalPolymerSequence"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CarbonAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;CarbonAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CartesianCoordinate -->
+
+    <Class rdf:about="&pdb_vocabulary;CartesianCoordinate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Cell -->
+
+    <Class rdf:about="&pdb_vocabulary;Cell"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CellularLocation -->
+
+    <Class rdf:about="&pdb_vocabulary;CellularLocation"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CeriumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;CeriumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CesiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;CesiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Chain -->
+
+    <Class rdf:about="&pdb_vocabulary;Chain"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ChainPosition -->
+
+    <Class rdf:about="&pdb_vocabulary;ChainPosition"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ChemicalFormula -->
+
+    <Class rdf:about="&pdb_vocabulary;ChemicalFormula"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ChemicalSubstance -->
+
+    <Class rdf:about="&pdb_vocabulary;ChemicalSubstance"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ChemicalSubstanceAmount -->
+
+    <Class rdf:about="&pdb_vocabulary;ChemicalSubstanceAmount"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ChemicalSubstanceExtraction -->
+
+    <Class rdf:about="&pdb_vocabulary;ChemicalSubstanceExtraction"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ChlorideIon -->
+
+    <Class rdf:about="&pdb_vocabulary;ChlorideIon"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ChlorineAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ChlorineAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ChromiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ChromiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CobaltAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;CobaltAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CoefficientMu -->
+
+    <Class rdf:about="&pdb_vocabulary;CoefficientMu"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ConformerSelectionCriteria -->
+
+    <Class rdf:about="&pdb_vocabulary;ConformerSelectionCriteria"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CopperAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;CopperAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CorrelationCoefficientFoToFc -->
+
+    <Class rdf:about="&pdb_vocabulary;CorrelationCoefficientFoToFc"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CorrelationCoefficientFoToFcFree -->
+
+    <Class rdf:about="&pdb_vocabulary;CorrelationCoefficientFoToFcFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Cosmid -->
+
+    <Class rdf:about="&pdb_vocabulary;Cosmid"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Country -->
+
+    <Class rdf:about="&pdb_vocabulary;Country"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CuriumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;CuriumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CyclicPseudoPeptide -->
+
+    <Class rdf:about="&pdb_vocabulary;CyclicPseudoPeptide"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:CylinderAbsortCorrection -->
+
+    <Class rdf:about="&pdb_vocabulary;CylinderAbsortCorrection"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Cysteine -->
+
+    <Class rdf:about="&pdb_vocabulary;Cysteine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Cytidine5PrimeMonophosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;Cytidine5PrimeMonophosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:DGammaGlutamylLCysteinylGlycine -->
+
+    <Class rdf:about="&pdb_vocabulary;DGammaGlutamylLCysteinylGlycine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:DOI -->
+
+    <Class rdf:about="&pdb_vocabulary;DOI"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:DarmstadtiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;DarmstadtiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:DataCutoffHighAbsF -->
+
+    <Class rdf:about="&pdb_vocabulary;DataCutoffHighAbsF"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:DataCutoffHighRmsAbsF -->
+
+    <Class rdf:about="&pdb_vocabulary;DataCutoffHighRmsAbsF"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:DataCutoffLowAbsF -->
+
+    <Class rdf:about="&pdb_vocabulary;DataCutoffLowAbsF"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:DeuteriumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;DeuteriumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:DevelopmentStage -->
+
+    <Class rdf:about="&pdb_vocabulary;DevelopmentStage"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:DocumentVolume -->
+
+    <Class rdf:about="&pdb_vocabulary;DocumentVolume"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:DoubleHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;DoubleHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:DubniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;DubniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:DysprosiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;DysprosiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:EdgeALength -->
+
+    <Class rdf:about="&pdb_vocabulary;EdgeALength"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:EdgeBLength -->
+
+    <Class rdf:about="&pdb_vocabulary;EdgeBLength"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:EdgeCLength -->
+
+    <Class rdf:about="&pdb_vocabulary;EdgeCLength"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:EinsteiniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;EinsteiniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ElectronCrystallography -->
+
+    <Class rdf:about="&pdb_vocabulary;ElectronCrystallography"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ElectronMicroscopy -->
+
+    <Class rdf:about="&pdb_vocabulary;ElectronMicroscopy"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:EmpiricalAbsortCorrection -->
+
+    <Class rdf:about="&pdb_vocabulary;EmpiricalAbsortCorrection"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ErbiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ErbiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:EuropiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;EuropiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Experiment -->
+
+    <Class rdf:about="&pdb_vocabulary;Experiment"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ExperimentalFormulaWeight -->
+
+    <Class rdf:about="&pdb_vocabulary;ExperimentalFormulaWeight"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:FeIIIIon -->
+
+    <Class rdf:about="&pdb_vocabulary;FeIIIIon"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:FermiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;FermiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:FiberDiffraction -->
+
+    <Class rdf:about="&pdb_vocabulary;FiberDiffraction"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:FiveMethylTwoPrimeDeoxyCytidineFivePrimeMonophosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;FiveMethylTwoPrimeDeoxyCytidineFivePrimeMonophosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:FivePrimeBromo2PrimeDeoxyCytidineFivePrimeMonophosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;FivePrimeBromo2PrimeDeoxyCytidineFivePrimeMonophosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:FlavinMononucleotide -->
+
+    <Class rdf:about="&pdb_vocabulary;FlavinMononucleotide"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:FluorescenceTransfer -->
+
+    <Class rdf:about="&pdb_vocabulary;FluorescenceTransfer"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:FluorineAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;FluorineAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:FourRFourAlphaThiazolyBenzamide -->
+
+    <Class rdf:about="&pdb_vocabulary;FourRFourAlphaThiazolyBenzamide"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:FranciumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;FranciumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:GadoliniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;GadoliniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:GalactoseUridineFivePrimeDiphosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;GalactoseUridineFivePrimeDiphosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:GalliumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;GalliumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:GaussianAbsortCorrection -->
+
+    <Class rdf:about="&pdb_vocabulary;GaussianAbsortCorrection"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:GeneticallyManipulatedChemicalSubstanceExtraction -->
+
+    <Class rdf:about="&pdb_vocabulary;GeneticallyManipulatedChemicalSubstanceExtraction"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:GermaniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;GermaniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:GlutamicAcid -->
+
+    <Class rdf:about="&pdb_vocabulary;GlutamicAcid"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Glutamine -->
+
+    <Class rdf:about="&pdb_vocabulary;Glutamine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Glycerol -->
+
+    <Class rdf:about="&pdb_vocabulary;Glycerol"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Glycine -->
+
+    <Class rdf:about="&pdb_vocabulary;Glycine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:GoCrossReference -->
+
+    <Class rdf:about="&pdb_vocabulary;GoCrossReference"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:GoldAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;GoldAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Guanosine5PrimeMonophosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;Guanosine5PrimeMonophosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:GuanosineFivePrimeDiphosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;GuanosineFivePrimeDiphosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:HafniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;HafniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:HassiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;HassiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:HeliumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;HeliumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Helix -->
+
+    <Class rdf:about="&pdb_vocabulary;Helix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:HelixLength -->
+
+    <Class rdf:about="&pdb_vocabulary;HelixLength"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Histidine -->
+
+    <Class rdf:about="&pdb_vocabulary;Histidine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:HolmiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;HolmiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:HybridExperimentalMethod -->
+
+    <Class rdf:about="&pdb_vocabulary;HybridExperimentalMethod"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:HydrogenAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;HydrogenAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:HypoPhosphite -->
+
+    <Class rdf:about="&pdb_vocabulary;HypoPhosphite"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ISBN -->
+
+    <Class rdf:about="&pdb_vocabulary;ISBN"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ISSN -->
+
+    <Class rdf:about="&pdb_vocabulary;ISSN"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:IndiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;IndiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:InfraredSpectroscopy -->
+
+    <Class rdf:about="&pdb_vocabulary;InfraredSpectroscopy"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:IntegrationAbsortCorrection -->
+
+    <Class rdf:about="&pdb_vocabulary;IntegrationAbsortCorrection"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:IodineAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;IodineAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:IridiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;IridiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:IronAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;IronAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:IronSulfurCluster -->
+
+    <Class rdf:about="&pdb_vocabulary;IronSulfurCluster"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Isoleucine -->
+
+    <Class rdf:about="&pdb_vocabulary;Isoleucine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:IsotropicAtomicDisplacement -->
+
+    <Class rdf:about="&pdb_vocabulary;IsotropicAtomicDisplacement"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:IsotropicThermalModel -->
+
+    <Class rdf:about="&pdb_vocabulary;IsotropicThermalModel"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Journal -->
+
+    <Class rdf:about="&pdb_vocabulary;Journal"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:JournalAbbreviation -->
+
+    <Class rdf:about="&pdb_vocabulary;JournalAbbreviation"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:KryptonAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;KryptonAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Language -->
+
+    <Class rdf:about="&pdb_vocabulary;Language"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LanthanumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;LanthanumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LawrenciumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;LawrenciumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LeadAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;LeadAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LeftHanded2.2-7Helix -->
+
+    <Class rdf:about="&pdb_vocabulary;LeftHanded2.2-7Helix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LeftHanded3-10Helix -->
+
+    <Class rdf:about="&pdb_vocabulary;LeftHanded3-10Helix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LeftHandedADoubleHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;LeftHandedADoubleHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LeftHandedAlphaHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;LeftHandedAlphaHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LeftHandedBDoubleHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;LeftHandedBDoubleHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LeftHandedDoubleHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;LeftHandedDoubleHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LeftHandedGammaHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;LeftHandedGammaHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LeftHandedHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;LeftHandedHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LeftHandedOmegaHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;LeftHandedOmegaHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LeftHandedPiHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;LeftHandedPiHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LeftHandedPolyprolineHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;LeftHandedPolyprolineHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LeftHandedZDoubleHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;LeftHandedZDoubleHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Leucine -->
+
+    <Class rdf:about="&pdb_vocabulary;Leucine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LithiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;LithiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsCrossValidMethod -->
+
+    <Class rdf:about="&pdb_vocabulary;LsCrossValidMethod"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsDResHigh -->
+
+    <Class rdf:about="&pdb_vocabulary;LsDResHigh"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsDResLow -->
+
+    <Class rdf:about="&pdb_vocabulary;LsDResLow"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsNumberParameters -->
+
+    <Class rdf:about="&pdb_vocabulary;LsNumberParameters"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsNumberReflnsAll -->
+
+    <Class rdf:about="&pdb_vocabulary;LsNumberReflnsAll"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsNumberReflnsObs -->
+
+    <Class rdf:about="&pdb_vocabulary;LsNumberReflnsObs"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsNumberReflnsRFree -->
+
+    <Class rdf:about="&pdb_vocabulary;LsNumberReflnsRFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsNumberRestraints -->
+
+    <Class rdf:about="&pdb_vocabulary;LsNumberRestraints"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsPercentReflnsObs -->
+
+    <Class rdf:about="&pdb_vocabulary;LsPercentReflnsObs"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsPercentReflnsRFree -->
+
+    <Class rdf:about="&pdb_vocabulary;LsPercentReflnsRFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsRFactorAll -->
+
+    <Class rdf:about="&pdb_vocabulary;LsRFactorAll"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsRFactorObs -->
+
+    <Class rdf:about="&pdb_vocabulary;LsRFactorObs"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsRFactorRFree -->
+
+    <Class rdf:about="&pdb_vocabulary;LsRFactorRFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsRFactorRFreeError -->
+
+    <Class rdf:about="&pdb_vocabulary;LsRFactorRFreeError"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsRFactorRFreeErrorDetails -->
+
+    <Class rdf:about="&pdb_vocabulary;LsRFactorRFreeErrorDetails"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsRFactorRWork -->
+
+    <Class rdf:about="&pdb_vocabulary;LsRFactorRWork"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsRedundancyReflnsObs -->
+
+    <Class rdf:about="&pdb_vocabulary;LsRedundancyReflnsObs"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsSigmaF -->
+
+    <Class rdf:about="&pdb_vocabulary;LsSigmaF"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsSigmaI -->
+
+    <Class rdf:about="&pdb_vocabulary;LsSigmaI"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsWRFactorRFree -->
+
+    <Class rdf:about="&pdb_vocabulary;LsWRFactorRFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LsWRFactorRWork -->
+
+    <Class rdf:about="&pdb_vocabulary;LsWRFactorRWork"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:LutetiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;LutetiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Lysine -->
+
+    <Class rdf:about="&pdb_vocabulary;Lysine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Macrolide -->
+
+    <Class rdf:about="&pdb_vocabulary;Macrolide"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Macrophage -->
+
+    <Class rdf:about="&pdb_vocabulary;Macrophage"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:MagnesiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;MagnesiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:MagnesiumIon -->
+
+    <Class rdf:about="&pdb_vocabulary;MagnesiumIon"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ManganeseAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ManganeseAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ManganeseIonII -->
+
+    <Class rdf:about="&pdb_vocabulary;ManganeseIonII"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:MaximumTransmissionFactor -->
+
+    <Class rdf:about="&pdb_vocabulary;MaximumTransmissionFactor"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:MedlineId -->
+
+    <Class rdf:about="&pdb_vocabulary;MedlineId"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:MeitneriumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;MeitneriumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:MendeleviumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;MendeleviumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:MercuryAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;MercuryAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Methionine -->
+
+    <Class rdf:about="&pdb_vocabulary;Methionine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:MethodToDetermineStruct -->
+
+    <Class rdf:about="&pdb_vocabulary;MethodToDetermineStruct"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:MinimumTransmissionFactor -->
+
+    <Class rdf:about="&pdb_vocabulary;MinimumTransmissionFactor"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Model -->
+
+    <Class rdf:about="&pdb_vocabulary;Model"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:MolybdenumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;MolybdenumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:MultiScanAbsortCorrection -->
+
+    <Class rdf:about="&pdb_vocabulary;MultiScanAbsortCorrection"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NAcetylDGlucosamine -->
+
+    <Class rdf:about="&pdb_vocabulary;NAcetylDGlucosamine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NOneNAcetamidylOneCyclohexymethylTwoHydroxyFourIsoPropylGlutaminylArginylAmide -->
+
+    <Class rdf:about="&pdb_vocabulary;NOneNAcetamidylOneCyclohexymethylTwoHydroxyFourIsoPropylGlutaminylArginylAmide"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Name -->
+
+    <Class rdf:about="&pdb_vocabulary;Name"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NapdNicotinamideAdenineDinucleotidePhosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;NapdNicotinamideAdenineDinucleotidePhosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NaturalChemicalSubstanceExtraction -->
+
+    <Class rdf:about="&pdb_vocabulary;NaturalChemicalSubstanceExtraction"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NeodymiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;NeodymiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NeonAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;NeonAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NeptuniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;NeptuniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NeutronDiffraction -->
+
+    <Class rdf:about="&pdb_vocabulary;NeutronDiffraction"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NickelAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;NickelAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NickelIIIon -->
+
+    <Class rdf:about="&pdb_vocabulary;NickelIIIon"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NicotinamideAdenineDinucleotide -->
+
+    <Class rdf:about="&pdb_vocabulary;NicotinamideAdenineDinucleotide"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NiobiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;NiobiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NitrogenAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;NitrogenAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NobeliumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;NobeliumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NonPolymer -->
+
+    <Class rdf:about="&pdb_vocabulary;NonPolymer"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NonStandardDoubleHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;NonStandardDoubleHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NonStandardHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;NonStandardHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NonStandardLeftHandedDoubleHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;NonStandardLeftHandedDoubleHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NonStandardLeftHandedHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;NonStandardLeftHandedHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NonStandardRightHandedDoubleHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;NonStandardRightHandedDoubleHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NonStandardRightHandedHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;NonStandardRightHandedHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NonStandardTurn -->
+
+    <Class rdf:about="&pdb_vocabulary;NonStandardTurn"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NumberOfAtoms -->
+
+    <Class rdf:about="&pdb_vocabulary;NumberOfAtoms"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NumberOfMonomers -->
+
+    <Class rdf:about="&pdb_vocabulary;NumberOfMonomers"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NumberOfNonHydrogenAtoms -->
+
+    <Class rdf:about="&pdb_vocabulary;NumberOfNonHydrogenAtoms"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:NumericalAbsortCorrection -->
+
+    <Class rdf:about="&pdb_vocabulary;NumericalAbsortCorrection"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OccupancyMax -->
+
+    <Class rdf:about="&pdb_vocabulary;OccupancyMax"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OccupancyMin -->
+
+    <Class rdf:about="&pdb_vocabulary;OccupancyMin"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OleicAcid -->
+
+    <Class rdf:about="&pdb_vocabulary;OleicAcid"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OneROneFourAnhydroTwoDeoxyOneThreeFluoroPhenylFiveOPhosphonoDErythroPentinol -->
+
+    <Class rdf:about="&pdb_vocabulary;OneROneFourAnhydroTwoDeoxyOneThreeFluoroPhenylFiveOPhosphonoDErythroPentinol"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Organ -->
+
+    <Class rdf:about="&pdb_vocabulary;Organ"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Organelle -->
+
+    <Class rdf:about="&pdb_vocabulary;Organelle"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OsmiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;OsmiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OverallESUR -->
+
+    <Class rdf:about="&pdb_vocabulary;OverallESUR"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OverallESURFree -->
+
+    <Class rdf:about="&pdb_vocabulary;OverallESURFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OverallFOMFreeRSet -->
+
+    <Class rdf:about="&pdb_vocabulary;OverallFOMFreeRSet"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OverallFOMWorkRSet -->
+
+    <Class rdf:about="&pdb_vocabulary;OverallFOMWorkRSet"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OverallPhaseError -->
+
+    <Class rdf:about="&pdb_vocabulary;OverallPhaseError"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OverallSUB -->
+
+    <Class rdf:about="&pdb_vocabulary;OverallSUB"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OverallSUML -->
+
+    <Class rdf:about="&pdb_vocabulary;OverallSUML"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OverallSURCruishankDPI -->
+
+    <Class rdf:about="&pdb_vocabulary;OverallSURCruishankDPI"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OverallSURFree -->
+
+    <Class rdf:about="&pdb_vocabulary;OverallSURFree"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:OxygenAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;OxygenAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PageNumber -->
+
+    <Class rdf:about="&pdb_vocabulary;PageNumber"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PalladiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;PalladiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PartialCharge -->
+
+    <Class rdf:about="&pdb_vocabulary;PartialCharge"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PdbRecord -->
+
+    <Class rdf:about="&pdb_vocabulary;PdbRecord"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Phenylalanine -->
+
+    <Class rdf:about="&pdb_vocabulary;Phenylalanine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PhosphoSerine -->
+
+    <Class rdf:about="&pdb_vocabulary;PhosphoSerine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PhosphoThreonine -->
+
+    <Class rdf:about="&pdb_vocabulary;PhosphoThreonine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PhosphorusAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;PhosphorusAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Plasmid -->
+
+    <Class rdf:about="&pdb_vocabulary;Plasmid"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PlatinumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;PlatinumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PlutoniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;PlutoniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PoloniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;PoloniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Polydeoxyribonucleotide -->
+
+    <Class rdf:about="&pdb_vocabulary;Polydeoxyribonucleotide"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Polydeoxyribonucleotide-Polyribonucleotide -->
+
+    <Class rdf:about="&pdb_vocabulary;Polydeoxyribonucleotide-Polyribonucleotide"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Polymer -->
+
+    <Class rdf:about="&pdb_vocabulary;Polymer"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PolymerSequence -->
+
+    <Class rdf:about="&pdb_vocabulary;PolymerSequence"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Polypeptide(D) -->
+
+    <Class rdf:about="&pdb_vocabulary;Polypeptide(D)"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Polypeptide(L) -->
+
+    <Class rdf:about="&pdb_vocabulary;Polypeptide(L)"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Polyribonucleotide -->
+
+    <Class rdf:about="&pdb_vocabulary;Polyribonucleotide"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Polysaccharide(D) -->
+
+    <Class rdf:about="&pdb_vocabulary;Polysaccharide(D)"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PotassiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;PotassiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PotassiumIon -->
+
+    <Class rdf:about="&pdb_vocabulary;PotassiumIon"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PowderDiffraction -->
+
+    <Class rdf:about="&pdb_vocabulary;PowderDiffraction"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PraseodymiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;PraseodymiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Proline -->
+
+    <Class rdf:about="&pdb_vocabulary;Proline"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PromethiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;PromethiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ProtactiniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ProtactiniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ProtoporphyrinIxContainingFe -->
+
+    <Class rdf:about="&pdb_vocabulary;ProtoporphyrinIxContainingFe"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PsiScanAbsortCorrection -->
+
+    <Class rdf:about="&pdb_vocabulary;PsiScanAbsortCorrection"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Publication -->
+
+    <Class rdf:about="&pdb_vocabulary;Publication"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PublicationYear -->
+
+    <Class rdf:about="&pdb_vocabulary;PublicationYear"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Publisher -->
+
+    <Class rdf:about="&pdb_vocabulary;Publisher"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PubmedId -->
+
+    <Class rdf:about="&pdb_vocabulary;PubmedId"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:PyroglutamicAcid -->
+
+    <Class rdf:about="&pdb_vocabulary;PyroglutamicAcid"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Pyrrolysine -->
+
+    <Class rdf:about="&pdb_vocabulary;Pyrrolysine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RFreeSelectionDetails -->
+
+    <Class rdf:about="&pdb_vocabulary;RFreeSelectionDetails"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RadiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;RadiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RadonAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;RadonAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ReciprocalAngleAlpha -->
+
+    <Class rdf:about="&pdb_vocabulary;ReciprocalAngleAlpha"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ReciprocalAngleBeta -->
+
+    <Class rdf:about="&pdb_vocabulary;ReciprocalAngleBeta"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ReciprocalAngleGamma -->
+
+    <Class rdf:about="&pdb_vocabulary;ReciprocalAngleGamma"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ReciprocalEdgeALength -->
+
+    <Class rdf:about="&pdb_vocabulary;ReciprocalEdgeALength"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ReciprocalEdgeBLength -->
+
+    <Class rdf:about="&pdb_vocabulary;ReciprocalEdgeBLength"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ReciprocalEdgeCLength -->
+
+    <Class rdf:about="&pdb_vocabulary;ReciprocalEdgeCLength"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RefdelfAbsortCorrection -->
+
+    <Class rdf:about="&pdb_vocabulary;RefdelfAbsortCorrection"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Refinement -->
+
+    <Class rdf:about="&pdb_vocabulary;Refinement"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RefinementDetails -->
+
+    <Class rdf:about="&pdb_vocabulary;RefinementDetails"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RefinementMethod -->
+
+    <Class rdf:about="&pdb_vocabulary;RefinementMethod"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Residue -->
+
+    <Class rdf:about="&pdb_vocabulary;Residue"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RheniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;RheniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RhodiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;RhodiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RightHandPolyprolineHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;RightHandPolyprolineHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RightHanded2.2-7Helix -->
+
+    <Class rdf:about="&pdb_vocabulary;RightHanded2.2-7Helix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RightHanded3-10Helix -->
+
+    <Class rdf:about="&pdb_vocabulary;RightHanded3-10Helix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RightHandedADoubleHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;RightHandedADoubleHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RightHandedAlphaHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;RightHandedAlphaHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RightHandedBDoubleHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;RightHandedBDoubleHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RightHandedDoubleHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;RightHandedDoubleHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RightHandedGammaHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;RightHandedGammaHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RightHandedHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;RightHandedHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RightHandedOmegaHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;RightHandedOmegaHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RightHandedPiHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;RightHandedPiHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RightHandedZDoubleHelix -->
+
+    <Class rdf:about="&pdb_vocabulary;RightHandedZDoubleHelix"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RoentgeniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;RoentgeniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RubidiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;RubidiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RuthefordiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;RuthefordiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:RutheniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;RutheniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SOxyCysteine -->
+
+    <Class rdf:about="&pdb_vocabulary;SOxyCysteine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SamariumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;SamariumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ScandiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ScandiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SeaborgiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;SeaborgiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Secretion -->
+
+    <Class rdf:about="&pdb_vocabulary;Secretion"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SeleniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;SeleniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SelenoMethionine -->
+
+    <Class rdf:about="&pdb_vocabulary;SelenoMethionine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Selenocysteine -->
+
+    <Class rdf:about="&pdb_vocabulary;Selenocysteine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Serine -->
+
+    <Class rdf:about="&pdb_vocabulary;Serine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SiliconAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;SiliconAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SilverAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;SilverAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SodiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;SodiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SodiumIon -->
+
+    <Class rdf:about="&pdb_vocabulary;SodiumIon"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SolidStateNmr -->
+
+    <Class rdf:about="&pdb_vocabulary;SolidStateNmr"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SolutionNmr -->
+
+    <Class rdf:about="&pdb_vocabulary;SolutionNmr"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SolutionScattering -->
+
+    <Class rdf:about="&pdb_vocabulary;SolutionScattering"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SolventIonProbeRadii -->
+
+    <Class rdf:about="&pdb_vocabulary;SolventIonProbeRadii"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SolventModelDetails -->
+
+    <Class rdf:about="&pdb_vocabulary;SolventModelDetails"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SolventModelParamBsol -->
+
+    <Class rdf:about="&pdb_vocabulary;SolventModelParamBsol"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SolventModelParamKsol -->
+
+    <Class rdf:about="&pdb_vocabulary;SolventModelParamKsol"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SolventShrinkageRadii -->
+
+    <Class rdf:about="&pdb_vocabulary;SolventShrinkageRadii"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SolventVdwProbeRadii -->
+
+    <Class rdf:about="&pdb_vocabulary;SolventVdwProbeRadii"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SphereAbsortCorrection -->
+
+    <Class rdf:about="&pdb_vocabulary;SphereAbsortCorrection"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:StartingModel -->
+
+    <Class rdf:about="&pdb_vocabulary;StartingModel"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:StereochemTargetValSpecCase -->
+
+    <Class rdf:about="&pdb_vocabulary;StereochemTargetValSpecCase"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:StereochemistryTargetValues -->
+
+    <Class rdf:about="&pdb_vocabulary;StereochemistryTargetValues"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:StrontiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;StrontiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:StructureDetermination -->
+
+    <Class rdf:about="&pdb_vocabulary;StructureDetermination"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SulfateIon -->
+
+    <Class rdf:about="&pdb_vocabulary;SulfateIon"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SulfurAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;SulfurAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:SynthecticChemicalSubstanceExtraction -->
+
+    <Class rdf:about="&pdb_vocabulary;SynthecticChemicalSubstanceExtraction"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TantalumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;TantalumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TechnetiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;TechnetiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TellurimAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;TellurimAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TerbiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;TerbiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ThalliumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ThalliumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TheoreticalFormulaWeight -->
+
+    <Class rdf:about="&pdb_vocabulary;TheoreticalFormulaWeight"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TheoreticalModel -->
+
+    <Class rdf:about="&pdb_vocabulary;TheoreticalModel"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ThoriumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ThoriumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ThreeCycloPentylNHydroxyPropanamide -->
+
+    <Class rdf:about="&pdb_vocabulary;ThreeCycloPentylNHydroxyPropanamide"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Threonine -->
+
+    <Class rdf:about="&pdb_vocabulary;Threonine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ThuliumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ThuliumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Thymidine5PrimeMonophosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;Thymidine5PrimeMonophosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TinAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;TinAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Tissue -->
+
+    <Class rdf:about="&pdb_vocabulary;Tissue"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TissueFraction -->
+
+    <Class rdf:about="&pdb_vocabulary;TissueFraction"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TitaniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;TitaniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Title -->
+
+    <Class rdf:about="&pdb_vocabulary;Title"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Tryptophan -->
+
+    <Class rdf:about="&pdb_vocabulary;Tryptophan"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TungstenAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;TungstenAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Turn -->
+
+    <Class rdf:about="&pdb_vocabulary;Turn"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TwoAminoTwoHydroxyMethylPropaneOneThreeDiol -->
+
+    <Class rdf:about="&pdb_vocabulary;TwoAminoTwoHydroxyMethylPropaneOneThreeDiol"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TwoHydroxymethylSixOctylsulfanylTetrahydroPyranThreeFourFiveTriol -->
+
+    <Class rdf:about="&pdb_vocabulary;TwoHydroxymethylSixOctylsulfanylTetrahydroPyranThreeFourFiveTriol"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TwoPrimeDeoxyAdenosineMonophosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;TwoPrimeDeoxyAdenosineMonophosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TwoPrimeDeoxyCitidineMonophosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;TwoPrimeDeoxyCitidineMonophosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TwoPrimeDeoxyGuanosineFivePrimeMonophosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;TwoPrimeDeoxyGuanosineFivePrimeMonophosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TwoTwoSTwoMethylPyrrolidinTwoYLOneHBenzimiazoleSevenCarboxamide -->
+
+    <Class rdf:about="&pdb_vocabulary;TwoTwoSTwoMethylPyrrolidinTwoYLOneHBenzimiazoleSevenCarboxamide"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TypeIIIPrimeTurn -->
+
+    <Class rdf:about="&pdb_vocabulary;TypeIIIPrimeTurn"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TypeIIITurn -->
+
+    <Class rdf:about="&pdb_vocabulary;TypeIIITurn"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TypeIIPrimeTurn -->
+
+    <Class rdf:about="&pdb_vocabulary;TypeIIPrimeTurn"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TypeIITurn -->
+
+    <Class rdf:about="&pdb_vocabulary;TypeIITurn"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TypeIPrimeTurn -->
+
+    <Class rdf:about="&pdb_vocabulary;TypeIPrimeTurn"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:TypeITurn -->
+
+    <Class rdf:about="&pdb_vocabulary;TypeITurn"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Tyrosine -->
+
+    <Class rdf:about="&pdb_vocabulary;Tyrosine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:UnitprotCrossReference -->
+
+    <Class rdf:about="&pdb_vocabulary;UnitprotCrossReference"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:UnknownResidue -->
+
+    <Class rdf:about="&pdb_vocabulary;UnknownResidue"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:UraniumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;UraniumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Uridine5PrimeMonophosphate -->
+
+    <Class rdf:about="&pdb_vocabulary;Uridine5PrimeMonophosphate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Valine -->
+
+    <Class rdf:about="&pdb_vocabulary;Valine"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:VanadiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;VanadiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Vector -->
+
+    <Class rdf:about="&pdb_vocabulary;Vector"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Virus -->
+
+    <Class rdf:about="&pdb_vocabulary;Virus"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Volume -->
+
+    <Class rdf:about="&pdb_vocabulary;Volume"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:VolumeNumber -->
+
+    <Class rdf:about="&pdb_vocabulary;VolumeNumber"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:Water -->
+
+    <Class rdf:about="&pdb_vocabulary;Water"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:XCartesianCoordinate -->
+
+    <Class rdf:about="&pdb_vocabulary;XCartesianCoordinate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:XRayDiffraction -->
+
+    <Class rdf:about="&pdb_vocabulary;XRayDiffraction"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:XenonAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;XenonAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:YCartesianCoordinate -->
+
+    <Class rdf:about="&pdb_vocabulary;YCartesianCoordinate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:YtterbiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;YtterbiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:YttriumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;YttriumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ZCartesianCoordinate -->
+
+    <Class rdf:about="&pdb_vocabulary;ZCartesianCoordinate"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ZincAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ZincAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ZincIon -->
+
+    <Class rdf:about="&pdb_vocabulary;ZincIon"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:ZirconiumAtom -->
+
+    <Class rdf:about="&pdb_vocabulary;ZirconiumAtom"/>
+    
+
+
+    <!-- http://bio2rdf.org/pdb_vocabulary:polysaccharide(L) -->
+
+    <Class rdf:about="&pdb_vocabulary;polysaccharide(L)"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
