@@ -1,0 +1,661 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY dataset_vocabulary "http://bio2rdf.org/dataset_vocabulary:" >
+    <!ENTITY affymetrix_vocabulary "http://bio2rdf.org/drugbank_vocabulary:" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://bio2rdf.org/bio2rdf_drugbank_sio_mapping.owl#"
+     xml:base="http://bio2rdf.org/bio2rdf_drugbank_sio_mapping.owl"
+     xmlns:affymetrix_vocabulary="http://bio2rdf.org/drugbank_vocabulary:"
+     xmlns:dataset_vocabulary="http://bio2rdf.org/dataset_vocabulary:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_drugbank_sio_mapping.owl">
+        <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+        <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_drugbank_vocabulary.owl"/>
+        <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_url -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_url">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:absorption -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;absorption">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:action -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;action">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:affected-organism -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;affected-organism">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:approved -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;approved">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:article -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;article">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:biotransformation -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;biotransformation">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:brand -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;brand">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:calculated-property -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;calculated-property">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:category -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;category">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:cellular-location -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;cellular-location">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:chromosome -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;chromosome">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:country -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;country">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;ddi-interactor-in">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:dosage -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;dosage">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:drug -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;drug">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:enzyme -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;enzyme">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:essentiality -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;essentiality">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:experimental-property -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;experimental-property">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:expires -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;expires">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:food-interaction -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;food-interaction">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:form -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;form">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:gene-name -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;gene-name">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:general-function -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;general-function">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:half-life -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;half-life">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:indication -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;indication">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:ingredient -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;ingredient">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:ingredients -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;ingredients">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:kingdom -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;kingdom">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:locus -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;locus">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:manufacturer -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;manufacturer">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;mechanism-of-action">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:mixture -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;mixture">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:molecular-weight -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;molecular-weight">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:name -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;name">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:packager -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;packager">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:patent -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;patent">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:pharmacological-action -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;pharmacological-action">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:pharmacology -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;pharmacology">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:price -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;price">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:product -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;product">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:protein-binding -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;protein-binding">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:reaction -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;reaction">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:route -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;route">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:route-of-elimination -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;route-of-elimination">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:signals -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;signals">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:source -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;source">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:species -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;species">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:specific-function -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;specific-function">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:substructure -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;substructure">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:synonym -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;synonym">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:target -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;target">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:theoretical-pi -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;theoretical-pi">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:toxicity -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;toxicity">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;transmembrane-regions">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:transporter -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;transporter">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:value -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;value">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:volume-of-distribution -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;volume-of-distribution">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:xref -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;xref">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000671"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Country -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Country">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000664"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Dosage -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Dosage">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_001019"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Drug -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Drug">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010038"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Drug-Drug-Interaction -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Drug-Drug-Interaction">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010013"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Drug-Enzyme-Interaction -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Drug-Enzyme-Interaction">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010013"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Drug-Target-Interaction -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Drug-Target-Interaction">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010013"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Drug-Transporter-Interaction -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Drug-Transporter-Interaction">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010013"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Form -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Form">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000776"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Mixture -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Mixture">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010462"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Patent -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Patent">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000153"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Pharmaceutical -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Pharmaceutical">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010462"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Route -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Route">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000005"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Source -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Source">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000776"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Target -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Target">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010423"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Unit -->
+
+    <rdf:Description rdf:about="&affymetrix_vocabulary;Unit">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000074"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
