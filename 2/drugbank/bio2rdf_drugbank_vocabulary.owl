@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY ctd_vocabulary "http://bio2rdf.org/drugbank_vocabulary:" >
+    <!ENTITY drugbank_vocabulary7 "http://bio2rdf.org/drugbank_vocabulary:5" >
+    <!ENTITY drugbank_vocabulary9 "http://bio2rdf.org/drugbank_vocabulary:2" >
+    <!ENTITY drugbank_vocabulary "http://bio2rdf.org/drugbank_vocabulary:9" >
+    <!ENTITY drugbank_vocabulary8 "http://bio2rdf.org/drugbank_vocabulary:69" >
+    <!ENTITY drugbank_vocabulary2 "http://bio2rdf.org/drugbank_vocabulary:63" >
+    <!ENTITY drugbank_vocabulary4 "http://bio2rdf.org/drugbank_vocabulary:38" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY drugbank_vocabulary6 "http://bio2rdf.org/drugbank_vocabulary:1210774" >
+    <!ENTITY drugbank_vocabulary5 "http://bio2rdf.org/drugbank_vocabulary:0159511" >
+    <!ENTITY drugbank_vocabulary3 "http://bio2rdf.org/drugbank_vocabulary:328031204" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:drugbank_vocabulary="&ctd_vocabulary;9"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:drugbank_vocabulary9="&ctd_vocabulary;2"
+     xmlns:drugbank_vocabulary8="&ctd_vocabulary;69"
+     xmlns:drugbank_vocabulary7="&ctd_vocabulary;5"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:drugbank_vocabulary6="&ctd_vocabulary;1210774"
+     xmlns:drugbank_vocabulary5="&ctd_vocabulary;0159511"
+     xmlns:drugbank_vocabulary4="&ctd_vocabulary;38"
+     xmlns:drugbank_vocabulary3="&ctd_vocabulary;328031204"
+     xmlns:drugbank_vocabulary2="&ctd_vocabulary;63"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:ctd_vocabulary="http://bio2rdf.org/drugbank_vocabulary:">
+    <Ontology rdf:about="http://bio2rdf.org/bio2rdf_drugbank_vocabulary.owl">
+        <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+     <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:gene-name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:signals">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:molecular-weight">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:essentiality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:xref">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:synonym">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:chromosome">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:specific-function">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:cellular-location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:theoretical-pi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:article">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:general-function">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:reaction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:transmembrane-regions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:species">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:locus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:packager">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:product">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:price">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:pharmacology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:biotransformation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:route-of-elimination">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:value">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:source">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:patent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:country">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:affected-organism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:kingdom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:enzyme">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:calculated-property">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:transporter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:form">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:absorption">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:volume-of-distribution">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:expires">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:action">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:mixture">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:ingredients">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:substructure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:protein-binding">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:food-interaction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:category">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:brand">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:manufacturer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:dosage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:route">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:indication">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:toxicity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:half-life">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:experimental-property">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:approved">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:target">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:drug">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:pharmacological-action">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/drugbank_vocabulary:ingredient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_url">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_unique_predicate_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_type_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_subject_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_object_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_predicate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_predicate_unique_subject_unique_literal_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_literal_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_subject_type">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_triple_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_unique_subject_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_unique_object_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_type">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_predicate_literal_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_predicate_object_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_predicate_unique_subject_unique_object_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_object_type">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_type_relation_type_count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:0159511b71d35c5949c0e00a12e6651c -->
+
+    <Class rdf:about="&ctd_vocabulary;0159511b71d35c5949c0e00a12e6651c"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:1210774cafce3971e9479ed31a406856 -->
+
+    <Class rdf:about="&ctd_vocabulary;1210774cafce3971e9479ed31a406856"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:2ecf5c66807533521afe15bf77f5c270 -->
+
+    <Class rdf:about="&ctd_vocabulary;2ecf5c66807533521afe15bf77f5c270"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:328031204b42f4b157db429dcac6460e -->
+
+    <Class rdf:about="&ctd_vocabulary;328031204b42f4b157db429dcac6460e"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:38e03967e1d53434a5e9cc0b7242919a -->
+
+    <Class rdf:about="&ctd_vocabulary;38e03967e1d53434a5e9cc0b7242919a"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:5f91dbae770792a76f1b981f3703aa3a -->
+
+    <Class rdf:about="&ctd_vocabulary;5f91dbae770792a76f1b981f3703aa3a"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:63e816118377ae5a4387d7b18820752a -->
+
+    <Class rdf:about="&ctd_vocabulary;63e816118377ae5a4387d7b18820752a"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:69b358c0a028350fc8ecb271ed519685 -->
+
+    <Class rdf:about="&ctd_vocabulary;69b358c0a028350fc8ecb271ed519685"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:9d6cc3147a935421f15ea52eebef154e -->
+
+    <Class rdf:about="&ctd_vocabulary;9d6cc3147a935421f15ea52eebef154e"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Country -->
+
+    <Class rdf:about="&ctd_vocabulary;Country"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Dosage -->
+
+    <Class rdf:about="&ctd_vocabulary;Dosage"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Drug -->
+
+    <Class rdf:about="&ctd_vocabulary;Drug"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Drug-Drug-Interaction -->
+
+    <Class rdf:about="&ctd_vocabulary;Drug-Drug-Interaction"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Drug-Enzyme-Interaction -->
+
+    <Class rdf:about="&ctd_vocabulary;Drug-Enzyme-Interaction"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Drug-Target-Interaction -->
+
+    <Class rdf:about="&ctd_vocabulary;Drug-Target-Interaction"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Drug-Transporter-Interaction -->
+
+    <Class rdf:about="&ctd_vocabulary;Drug-Transporter-Interaction"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Form -->
+
+    <Class rdf:about="&ctd_vocabulary;Form"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Mixture -->
+
+    <Class rdf:about="&ctd_vocabulary;Mixture"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Patent -->
+
+    <Class rdf:about="&ctd_vocabulary;Patent"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Pharmaceutical -->
+
+    <Class rdf:about="&ctd_vocabulary;Pharmaceutical"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Route -->
+
+    <Class rdf:about="&ctd_vocabulary;Route"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Source -->
+
+    <Class rdf:about="&ctd_vocabulary;Source"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Target -->
+
+    <Class rdf:about="&ctd_vocabulary;Target"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:Unit -->
+
+    <Class rdf:about="&ctd_vocabulary;Unit"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:a1b9ff766a68c35e5b20c38cdb048a08 -->
+
+    <Class rdf:about="&ctd_vocabulary;a1b9ff766a68c35e5b20c38cdb048a08"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:ac4294d04fa690969f14ea9782ce0e6a -->
+
+    <Class rdf:about="&ctd_vocabulary;ac4294d04fa690969f14ea9782ce0e6a"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:b27eec477c5a6bec2f67af666be7758c -->
+
+    <Class rdf:about="&ctd_vocabulary;b27eec477c5a6bec2f67af666be7758c"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:c1ef01d51e47271f7ab5196ea683ccdd -->
+
+    <Class rdf:about="&ctd_vocabulary;c1ef01d51e47271f7ab5196ea683ccdd"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:d7476ffad42f5e5625340cdf9fbfd86f -->
+
+    <Class rdf:about="&ctd_vocabulary;d7476ffad42f5e5625340cdf9fbfd86f"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:e5ee87c2e0a38fc0f2d6407165f5077c -->
+
+    <Class rdf:about="&ctd_vocabulary;e5ee87c2e0a38fc0f2d6407165f5077c"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:f2fd787711cbf2b75524d4ba762b616a -->
+
+    <Class rdf:about="&ctd_vocabulary;f2fd787711cbf2b75524d4ba762b616a"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:f8167ecb8671078eb5d5a76d3a977e76 -->
+
+    <Class rdf:about="&ctd_vocabulary;f8167ecb8671078eb5d5a76d3a977e76"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:fabb3a8026ca41ac10405d37c8a77a6b -->
+
+    <Class rdf:about="&ctd_vocabulary;fabb3a8026ca41ac10405d37c8a77a6b"/>
+    
+
+
+    <!-- http://bio2rdf.org/drugbank_vocabulary:ffd09f97b6e06a8c2f1351c3aa095b83 -->
+
+    <Class rdf:about="&ctd_vocabulary;ffd09f97b6e06a8c2f1351c3aa095b83"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
