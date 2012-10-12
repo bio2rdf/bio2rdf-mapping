@@ -220,6 +220,25 @@
     <rdf:Description rdf:about="&dataset_vocabulary2;has_url">
         <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
     </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:Endpoint -->
+
+    <owl:Class rdf:about="&dataset_vocabulary2;Endpoint">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000750"/>
+    </owl:Class>
 </rdf:RDF>
 
 
