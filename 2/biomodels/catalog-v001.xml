@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://bio2rdf.org/bio2rdf_biomodels_vocabulary.owl" uri="bio2rdf_biomodels_vocabulary.owl"/>
+    <uri id="Imports Wizard Entry" name="http://bio2rdf.org/bio2rdf_biomodels_sio_mapping.owl" uri="bio2rdf_biomodels_vocabulary.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1350064933048" name="duplicate:http://bio2rdf.org/bio2rdf_biomodels_sio_mapping.owl" uri="bio2rdf_biomodels_vocabulary.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1350064933048" name="duplicate:http://bio2rdf.org/bio2rdf_biomodels_sio_mapping.owl" uri="bio2rdf_biomodels_sio_mapping.owl"/>
+    </group>
+</catalog>
