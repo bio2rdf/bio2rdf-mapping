@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY affymetrix_vocabulary "http://bio2rdf.org/affymetrix_vocabulary:" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:affymetrix_vocabulary="http://bio2rdf.org/affymetrix_vocabulary:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Ontology rdf:about="http://bio2rdf.org/bio2rdf_affymetrix_vocabulary.owl">
+        <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+    </Ontology>
+    
+<rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:sequence-type">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:alignments">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:chromosomal-location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:x-geneid">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:process">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:genome-species">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:genome-version-create_date">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:genbank-date">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:refseq-version">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:netaffx-annotation-tabular-format-version">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:x-ec">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:qtl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:genechip-array">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:species-scientific-name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/affymetrix_vocabulary:annotation-date">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/affymetrix_vocabulary:Probeset -->
+
+    <Class rdf:about="&affymetrix_vocabulary;Probeset">
+        <rdfs:comment> </rdfs:comment>
+    </Class>
+    
+
+
+  
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
