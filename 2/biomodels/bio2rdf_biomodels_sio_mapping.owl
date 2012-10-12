@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+    <!ENTITY biopax_vocabulary "http://bio2rdf.org/biopax_vocabulary:" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY dataset_vocabulary2 "http://bio2rdf.org/dataset_vocabulary:" >
+    <!ENTITY dataset_vocabulary "http://bio2rdf.org/biomodels_vocabulary:" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://bio2rdf.org/bio2rdf_biomodels_sio_mapping.owl#"
+     xml:base="http://bio2rdf.org/bio2rdf_biomodels_sio_mapping.owl"
+     xmlns:dataset_vocabulary="http://bio2rdf.org/biomodels_vocabulary:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:biopax_vocabulary="http://bio2rdf.org/biopax_vocabulary:"
+     xmlns:dataset_vocabulary2="http://bio2rdf.org/dataset_vocabulary:"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_biomodels_sio_mapping.owl">
+        <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+        <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_biomodels_vocabulary.owl"/>
+        <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/biopax_vocabulary:identical-to -->
+
+    <rdf:Description rdf:about="&biopax_vocabulary;identical-to">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/biopax_vocabulary:publication -->
+
+    <rdf:Description rdf:about="&biopax_vocabulary;publication">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_literal_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_literal_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_object_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_object_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_object_type -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_object_type">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_predicate">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_literal_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_predicate_literal_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_object_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_predicate_object_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_unique_subject_unique_literal_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_predicate_unique_subject_unique_literal_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_unique_subject_unique_object_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_predicate_unique_subject_unique_object_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_subject_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_subject_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_subject_type -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_subject_type">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_triple_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_triple_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_type -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_type">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_type_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_type_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_type_relation_type_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_type_relation_type_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_unique_object_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_unique_object_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_unique_predicate_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_unique_predicate_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_unique_subject_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_unique_subject_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_url -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary2;has_url">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
