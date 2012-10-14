@@ -1,0 +1,655 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY omim_vocabulary "http://bio2rdf.org/omim_vocabulary:" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY dataset_vocabulary "http://bio2rdf.org/dataset_vocabulary:" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY genotype "http://bio2rdf.org/omim_vocabulary:genotype/" >
+]>
+
+
+<rdf:RDF xmlns="http://bio2rdf.org/bio2rdf_omim_sio_mapping.owl#"
+     xml:base="http://bio2rdf.org/bio2rdf_omim_sio_mapping.owl"
+     xmlns:dataset_vocabulary="http://bio2rdf.org/dataset_vocabulary:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:genotype="&omim_vocabulary;genotype/"
+     xmlns:omim_vocabulary="http://bio2rdf.org/omim_vocabulary:">
+    <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_omim_sio_mapping.owl">
+        <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+        <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_omim_vocabulary.owl"/>
+        <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_literal_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_literal_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_object_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_object_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_object_type -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_object_type">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_predicate">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_literal_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_predicate_literal_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_object_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_predicate_object_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_unique_subject_unique_literal_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_predicate_unique_subject_unique_literal_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_unique_subject_unique_object_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_predicate_unique_subject_unique_object_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_subject_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_subject_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_subject_type -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_subject_type">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_triple_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_triple_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_type -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_type">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_type_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_type_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_type_relation_type_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_type_relation_type_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_unique_object_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_unique_object_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_unique_predicate_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_unique_predicate_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_unique_subject_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_unique_subject_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_url -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_url">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:alternative-names -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;alternative-names">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:alternative-title -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;alternative-title">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:animal-model -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;animal-model">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:article -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;article">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:biochemical-features -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;biochemical-features">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:characteristic-of -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;characteristic-of">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:chromosome -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;chromosome">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:clinical-features -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;clinical-features">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:clinical-management -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;clinical-management">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:clinical-synopsis -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;clinical-synopsis">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:cloning -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;cloning">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:cytogenetics -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;cytogenetics">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:cytolocation -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;cytolocation">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:dbsnp -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;dbsnp">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:diagnosis -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;diagnosis">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:evolution -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;evolution">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:feature -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;feature">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:gene-family -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;gene-family">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:gene-function -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;gene-function">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:gene-inheritance -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;gene-inheritance">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:gene-name -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;gene-name">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:gene-structure -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;gene-structure">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:gene-symbol -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;gene-symbol">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:gene-therapy -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;gene-therapy">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:genetic-variability -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;genetic-variability">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:genotype -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;genotype">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:heterogeneity -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;heterogeneity">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:history -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;history">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:inheritance -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;inheritance">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:mapping -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;mapping">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:mapping-method -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;mapping-method">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:molecular-genetics -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;molecular-genetics">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:mouse-gene-symbol -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;mouse-gene-symbol">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:mouse-mgi -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;mouse-mgi">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:mutation -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;mutation">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:nomenclature -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;nomenclature">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:other-features -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;other-features">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:pathogenesis -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;pathogenesis">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:phenotype -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;phenotype">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:population-genetics -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;population-genetics">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:preferred-title -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;preferred-title">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:refers-to -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;refers-to">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:text -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;text">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:variant -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;variant">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:xref -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;xref">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:genotype/phenotype-correlations -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;genotype/phenotype-correlations">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:Endpoint -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;Endpoint">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000750"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:Allelic-Variant -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;Allelic-Variant">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000015"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:Characteristic -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;Characteristic">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000475"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:Clinical-Synopsis -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;Clinical-Synopsis">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000015"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:Entity -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;Entity">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000000"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:Gene -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;Gene">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010035"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:Gene-phenotype -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;Gene-phenotype">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010056"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/omim_vocabulary:Phenotype -->
+
+    <rdf:Description rdf:about="&omim_vocabulary;Phenotype">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010056"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
