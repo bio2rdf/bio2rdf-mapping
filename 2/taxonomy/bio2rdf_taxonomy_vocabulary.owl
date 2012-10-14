@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY taxonomy_vocabulary "http://bio2rdf.org/ctd_vocabulary:" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+    <!ENTITY taxon_vocabulary "http://bio2rdf.org/taxon_vocabulary:" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY dataset_vocabulary "http://bio2rdf.org/dataset_vocabulary:" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:dataset_vocabulary="http://bio2rdf.org/dataset_vocabulary:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:taxonomy_vocabulary="http://bio2rdf.org/ctd_vocabulary:"
+     xmlns:taxon_vocabulary="http://bio2rdf.org/taxon_vocabulary:">
+    <Ontology rdf:about="http://bio2rdf.org/bio2rdf_taxonomy_vocabulary.owl">
+        <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:citation -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;citation"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:citation_key -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;citation_key"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:comments -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;comments"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:division -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;division"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:division_code -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;division_code"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:embl_code -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;embl_code"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:genbank_hidden_flag -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;genbank_hidden_flag"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:genetic_code -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;genetic_code"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:inherited_division_flag -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;inherited_division_flag"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:inherited_gc_flag -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;inherited_gc_flag"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:inherited_mgc_flag -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;inherited_mgc_flag"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:name_class -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;name_class"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:parent -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;parent"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:text -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;text"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:translation_table -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;translation_table"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:unique_name -->
+
+    <ObjectProperty rdf:about="&taxon_vocabulary;unique_name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:Endpoint -->
+
+    <Class rdf:about="&dataset_vocabulary;Endpoint"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:citation -->
+
+    <Class rdf:about="&taxon_vocabulary;citation"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:division -->
+
+    <Class rdf:about="&taxon_vocabulary;division"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:genetic_code -->
+
+    <Class rdf:about="&taxon_vocabulary;genetic_code"/>
+    
+
+
+    <!-- http://bio2rdf.org/taxon_vocabulary:taxon -->
+
+    <Class rdf:about="&taxon_vocabulary;taxon"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
