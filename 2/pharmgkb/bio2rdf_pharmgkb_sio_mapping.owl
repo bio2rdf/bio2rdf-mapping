@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY dataset_vocabulary "http://bio2rdf.org/dataset_vocabulary:" >
+    <!ENTITY pharmgkb_vocabulary "http://bio2rdf.org/pharmgkb_vocabulary:" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://bio2rdf.org/bio2rdf_pharmgkb_sio_mapping.owl#"
+     xml:base="http://bio2rdf.org/bio2rdf_pharmgkb_sio_mapping.owl"
+     xmlns:dataset_vocabulary="http://bio2rdf.org/dataset_vocabulary:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:pharmgkb_vocabulary="http://bio2rdf.org/pharmgkb_vocabulary:"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_pharmgkb_sio_mapping.owl">
+        <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+        <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_pharmgkb_vocabulary.owl"/>
+        <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:chemical -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;chemical">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:in-sider -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;in-sider">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:Endpoint -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;Endpoint">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000750"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Association -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Association">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000897"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Chemical -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Chemical">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010004"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Disease -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Disease">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010299"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Disease-Gene-Association -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Disease-Gene-Association">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000983"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Disease-Haplotype-Association -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Disease-Haplotype-Association">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000897"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Disease-VariantLocation-Association -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Disease-VariantLocation-Association">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000897"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Drug -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Drug">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010038"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Drug-Drug-Association -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Drug-Drug-Association">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000897"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Drug-Gene-Association -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Drug-Gene-Association">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000897"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Drug-Haplotype-Association -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Drug-Haplotype-Association">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000897"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Drug-VariantLocation-Association -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Drug-VariantLocation-Association">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000897"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Event -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Event">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000006"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Gene -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Gene">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010035"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Gene-Gene-Association -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Gene-Gene-Association">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000897"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Pathway -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Pathway">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000015"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:Side-Effect -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;Side-Effect">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000027"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
