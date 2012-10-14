@@ -51,11 +51,43 @@
      -->
 
     
+ 
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_literal_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_literal_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
 
 
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_url -->
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_unique_subject_unique_literal_count -->
 
-    <rdf:Description rdf:about="&dataset_vocabulary;has_url">
+    <rdf:Description rdf:about="&dataset_vocabulary;has_predicate_unique_subject_unique_literal_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_subject_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_subject_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_type_relation_type_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_type_relation_type_count">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:has_unique_subject_count -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;has_unique_subject_count">
         <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
     </rdf:Description>
     
@@ -533,6 +565,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:Endpoint -->
+
+    <owl:Class rdf:about="&dataset_vocabulary;Endpoint">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000069"/>
+    </owl:Class>
     
 
 

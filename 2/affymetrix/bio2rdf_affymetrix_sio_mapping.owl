@@ -8,6 +8,8 @@
     <!ENTITY resource "http://semanticscience.org/resource/" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY affymetrix_vocabulary "http://bio2rdf.org/affymetrix_vocabulary:" >
+    <!ENTITY dataset_vocabulary "http://bio2rdf.org/dataset_vocabulary:" >
+    
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
 ]>
 
@@ -26,7 +28,11 @@
         <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_affymetrix_vocabulary.owl"/>
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
     </owl:Ontology>
-    
+      <!-- http://bio2rdf.org/dataset_vocabulary:Endpoint -->
+
+    <owl:Class rdf:about="&dataset_vocabulary;Endpoint">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000750"/>
+    </owl:Class>
 
 
     <!-- 
