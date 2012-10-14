@@ -4,7 +4,7 @@
 <!DOCTYPE rdf:RDF [
     <!ENTITY terms "http://purl.org/dc/terms/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY taxonomy_vocabulary "http://bio2rdf.org/ctd_vocabulary:" >
+    <!ENTITY taxonomy_vocabulary "http://bio2rdf.org/taxonomy_vocabulary:" >
     <!ENTITY resource "http://semanticscience.org/resource/" >
     <!ENTITY taxon_vocabulary "http://bio2rdf.org/taxon_vocabulary:" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
@@ -21,7 +21,7 @@
      xmlns:resource="http://semanticscience.org/resource/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:taxonomy_vocabulary="http://bio2rdf.org/ctd_vocabulary:"
+     xmlns:taxonomy_vocabulary="http://bio2rdf.org/taxonomy_vocabulary:"
      xmlns:taxon_vocabulary="http://bio2rdf.org/taxon_vocabulary:">
     <Ontology rdf:about="http://bio2rdf.org/bio2rdf_taxonomy_vocabulary.owl">
         <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
