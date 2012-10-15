@@ -25,6 +25,7 @@
      xmlns:ndc_vocabulary="http://bio2rdf.org/ndc_vocabulary:">
     <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_ndc_sio_mapping.owl">
         <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+        <rdfs:comment xml:lang="en">NDC Bio2RDF SIO Mapping</rdfs:comment>
         <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_ndc_vocabulary.owl"/>
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
     </owl:Ontology>
@@ -330,6 +331,12 @@
     <rdf:Description rdf:about="&ndc_vocabulary;trade-name-suffix">
         <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
     </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_010462 -->
+
+    <owl:ObjectProperty rdf:about="&resource;SIO_010462"/>
     
 
 
