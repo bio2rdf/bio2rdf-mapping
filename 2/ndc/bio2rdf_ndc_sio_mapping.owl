@@ -256,7 +256,7 @@
     <!-- http://bio2rdf.org/ndc_vocabulary:ingredient -->
 
     <rdf:Description rdf:about="&ndc_vocabulary;ingredient">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_010462"/>
     </rdf:Description>
     
 
@@ -379,7 +379,7 @@
     <!-- http://bio2rdf.org/ndc_vocabulary:cellular-therapy -->
 
     <rdf:Description rdf:about="&ndc_vocabulary;cellular-therapy">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000006"/>
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000999"/>
     </rdf:Description>
     
 
@@ -411,7 +411,7 @@
     <!-- http://bio2rdf.org/ndc_vocabulary:plasma-derivative -->
 
     <rdf:Description rdf:about="&ndc_vocabulary;plasma-derivative">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000004"/>
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010462"/>
     </rdf:Description>
     
 
@@ -427,7 +427,7 @@
     <!-- http://bio2rdf.org/ndc_vocabulary:vaccine -->
 
     <rdf:Description rdf:about="&ndc_vocabulary;vaccine">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000004"/>
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010462"/>
     </rdf:Description>
 </rdf:RDF>
 
