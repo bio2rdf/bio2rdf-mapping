@@ -2,7 +2,7 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="Imports Wizard Entry" name="http://bio2rdf.org/bio2rdf_sabiork_vocabulary.owl" uri="bio2rdf_sabiork_vocabulary.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1350244795526" name="http://bio2rdf.org/bio2rdf_sabiork_sio_mapping.owl" uri="bio2rdf_sabiork_sio_mapping.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1350244795526" name="http://www.w3.org/2002/07/owl" uri="bio2rdf_sabiork_vocabulary.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1350333444216" name="http://bio2rdf.org/bio2rdf_sabiork_sio_mapping.owl" uri="bio2rdf_sabiork_sio_mapping.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1350333444216" name="http://www.w3.org/2002/07/owl" uri="bio2rdf_sabiork_vocabulary.owl"/>
     </group>
 </catalog>

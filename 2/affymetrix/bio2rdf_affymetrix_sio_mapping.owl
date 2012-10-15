@@ -191,7 +191,7 @@
     <!-- http://bio2rdf.org/affymetrix_vocabulary:Probeset -->
 
     <rdf:Description rdf:about="&affymetrix_vocabulary;Probeset">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000776"/>
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010008"/>
     </rdf:Description>
 </rdf:RDF>
 

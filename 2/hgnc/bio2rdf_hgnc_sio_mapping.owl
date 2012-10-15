@@ -467,7 +467,7 @@
     <!-- http://bio2rdf.org/hgnc_vocabulary:GeneSymbol -->
 
     <rdf:Description rdf:about="&hgnc_vocabulary;GeneSymbol">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000105"/>
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000732"/>
     </rdf:Description>
 </rdf:RDF>
 
