@@ -1,0 +1,470 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY mesh_vocabulary "http://bio2rdf.org/mesh_vocabulary:" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY dataset_vocabulary "http://bio2rdf.org/dataset_vocabulary:" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://bio2rdf.org/bio2rdf_mesh_sio_mapping.owl#"
+     xml:base="http://bio2rdf.org/bio2rdf_mesh_sio_mapping.owl"
+     xmlns:dataset_vocabulary="http://bio2rdf.org/dataset_vocabulary:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:mesh_vocabulary="http://bio2rdf.org/mesh_vocabulary:"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_mesh_sio_mapping.owl">
+        <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+        <rdfs:comment xml:lang="en">MeSH Bio2RDF SIO mapping</rdfs:comment>
+        <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_mesh_vocabulary.owl"/>
+        <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:allowable-topical-qualifiers -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;allowable-topical-qualifiers">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:annotation -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;annotation">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:backfile-posting -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;backfile-posting">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:cas-registry-number-or-ec-number -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;cas-registry-number-or-ec-number">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:cas-type-1-name -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;cas-type-1-name">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:cataloging-subheadings-list-name -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;cataloging-subheadings-list-name">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:consider-also-xref -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;consider-also-xref">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:date-major-descriptor-established -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;date-major-descriptor-established">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:date-of-entry -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;date-of-entry">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:date-qualifier-established -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;date-qualifier-established">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:descriptor-class -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;descriptor-class">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:descriptor-entry-version -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;descriptor-entry-version">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:descriptor-sort-version -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;descriptor-sort-version">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:entry-combination -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;entry-combination">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:entry-term -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;entry-term">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:forward-xref -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;forward-xref">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:frequency -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;frequency">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:grateful-med-note -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;grateful-med-note">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:heading-mapped-to -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;heading-mapped-to">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:history-note -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;history-note">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:histrory-note -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;histrory-note">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:indexing-information -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;indexing-information">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:major-revision-date -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;major-revision-date">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:mesh-heading-thesaurus-id -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;mesh-heading-thesaurus-id">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000671"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:mesh-scope-note -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;mesh-scope-note">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:mesh-tree-number -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;mesh-tree-number">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000671"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:nm-term-thesaurus-id -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;nm-term-thesaurus-id">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000671"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:note -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;note">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:online-note -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;online-note">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:pharmacological-action -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;pharmacological-action">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:pre-explosion -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;pre-explosion">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:previous-indexing -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;previous-indexing">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:public-mesh-note -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;public-mesh-note">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:qualifier-cross-reference -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;qualifier-cross-reference">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000671"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:qualifier-entry-version -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;qualifier-entry-version">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:qualifier-sort-version -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;qualifier-sort-version">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:qualifier-type -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;qualifier-type">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:related-cas-registry-number -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;related-cas-registry-number">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:running-head -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;running-head">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:scope-note -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;scope-note">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:semantic-type -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;semantic-type">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:source -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;source">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:synonym -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;synonym">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:topical-qualifier-abbreviation -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;topical-qualifier-abbreviation">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:tree-node-allowed -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;tree-node-allowed">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:unique-identifier -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;unique-identifier">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000671"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:Endpoint -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;Endpoint">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000750"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:descriptor_record -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;descriptor_record">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000088"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:qualifier_record -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;qualifier_record">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000088"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/mesh_vocabulary:supplementary_record -->
+
+    <rdf:Description rdf:about="&mesh_vocabulary;supplementary_record">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000088"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
