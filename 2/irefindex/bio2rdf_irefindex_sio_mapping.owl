@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY dataset_vocabulary "http://bio2rdf.org/dataset_vocabulary:" >
+    <!ENTITY irefindex_vocabulary "http://bio2rdf.org/irefindex_vocabulary:" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://bio2rdf.org/bio2rdf_irefindex_sio_mapping.owl#"
+     xml:base="http://bio2rdf.org/bio2rdf_irefindex_sio_mapping.owl"
+     xmlns:dataset_vocabulary="http://bio2rdf.org/dataset_vocabulary:"
+     xmlns:irefindex_vocabulary="http://bio2rdf.org/irefindex_vocabulary:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_irefindex_sio_mapping.owl">
+        <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+        <rdfs:comment xml:lang="en">iRefindex Bio2RDF SIO mapping</rdfs:comment>
+        <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_mesh_vocabulary.owl"/>
+        <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/irefindex_vocabulary:expansion-method -->
+
+    <rdf:Description rdf:about="&irefindex_vocabulary;expansion-method">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/irefindex_vocabulary:interactor_b_biological_role -->
+
+    <rdf:Description rdf:about="&irefindex_vocabulary;interactor_b_biological_role">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/irefindex_vocabulary:method -->
+
+    <rdf:Description rdf:about="&irefindex_vocabulary;method">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/irefindex_vocabulary:minimum-number-interactions-reported -->
+
+    <rdf:Description rdf:about="&irefindex_vocabulary;minimum-number-interactions-reported">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/irefindex_vocabulary:taxon-sequence-similar-group -->
+
+    <rdf:Description rdf:about="&irefindex_vocabulary;taxon-sequence-similar-group">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/irefindex_vocabulary:taxon-sequence-similar-interaction-group -->
+
+    <rdf:Description rdf:about="&irefindex_vocabulary;taxon-sequence-similar-interaction-group">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/dataset_vocabulary:Endpoint -->
+
+    <rdf:Description rdf:about="&dataset_vocabulary;Endpoint">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000750"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/irefindex_vocabulary:Homopolymeric-Complex -->
+
+    <rdf:Description rdf:about="&irefindex_vocabulary;Homopolymeric-Complex">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010497"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/irefindex_vocabulary:Multimeric-Complex -->
+
+    <rdf:Description rdf:about="&irefindex_vocabulary;Multimeric-Complex">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010497"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/irefindex_vocabulary:Pairwise-Interaction -->
+
+    <rdf:Description rdf:about="&irefindex_vocabulary;Pairwise-Interaction">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010013"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/irefindex_vocabulary:Taxon-Sequence-Identical-Group -->
+
+    <rdf:Description rdf:about="&irefindex_vocabulary;Taxon-Sequence-Identical-Group">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000436"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/irefindex_vocabulary:Taxon-Sequence-Similar-Group -->
+
+    <rdf:Description rdf:about="&irefindex_vocabulary;Taxon-Sequence-Similar-Group">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000436"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
