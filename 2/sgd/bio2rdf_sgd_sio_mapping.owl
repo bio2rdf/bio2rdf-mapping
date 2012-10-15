@@ -1,0 +1,728 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY sgd_vocabulary "http://bio2rdf.org/sgd_vocabulary:" >
+    <!ENTITY resource "http://semanticscience.org/resource/" >
+    <!ENTITY taxon_vocabulary "http://bio2rdf.org/taxon_vocabulary:" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY dataset_vocabulary "http://bio2rdf.org/dataset_vocabulary:" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://bio2rdf.org/bio2rdf_drugbank_sio_mapping.owl#"
+     xml:base="http://bio2rdf.org/bio2rdf_drugbank_sio_mapping.owl"
+     xmlns:dataset_vocabulary="http://bio2rdf.org/dataset_vocabulary:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:taxon_vocabulary="http://bio2rdf.org/taxon_vocabulary:"
+     xmlns:sgd_vocabulary="http://bio2rdf.org/sgd_vocabulary:">
+    <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_sgd_sio_mapping.owl">
+        <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+        <rdfs:comment xml:lang="en">SGD Bio2RDF SIO Mapping</rdfs:comment>
+        <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_sgd_vocabulary.owl"/>
+        <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:alias -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;alias">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:allele -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;allele">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:article -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;article">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:background -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;background">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:bait -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;bait">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:chemical -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;chemical">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:chromosome -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;chromosome">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:condition -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;condition">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:details -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;details">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:e-value -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;e-value">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:encodes -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;encodes">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:evidence -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;evidence">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:experiment_type -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;experiment_type">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:has-function -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;has-function">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:has-participant -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;has-participant">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000132"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:has-proper-part -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;has-proper-part">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000053"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:has-start-position -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;has-start-position">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:has-stop-position -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;has-stop-position">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:has-value -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;has-value">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:hit -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;hit">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:is-about -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;is-about">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000332"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:is-described-by -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;is-described-by">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000557"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:is-located-in -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;is-located-in">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000061"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:is-participant-in -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;is-participant-in">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000062"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:is-proper-part-of -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;is-proper-part-of">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000093"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:location -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;location">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:method -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;method">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:mutant_type -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;mutant_type">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:observable -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;observable">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:phenotype -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;phenotype">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:prefLabel -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;prefLabel">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:qualifier -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;qualifier">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:query -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;query">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:query-start -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;query-start">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:query-stop -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;query-stop">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:standardName -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;standardName">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:status -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;status">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:strand -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;strand">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:target -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;target">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:throughput -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;throughput">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:AlanineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;AlanineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:ArginineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;ArginineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:AromaticityScore -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;AromaticityScore">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000052"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:AsparagineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;AsparagineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:AspartateCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;AspartateCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:Chromosome -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;Chromosome">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000899"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:CodonAdaptationIndex -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;CodonAdaptationIndex">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000070"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:CodonBias -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;CodonBias">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000614"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:Complex -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;Complex">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010506"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:CrickStrand -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;CrickStrand">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010335"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:CysteinCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;CysteinCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:DomainAlignment -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;DomainAlignment">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010066"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:Enzyme -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;Enzyme">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010343"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:FrequencyOfOptimalCodons -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;FrequencyOfOptimalCodons">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:GO-Annotation -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;GO-Annotation">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000115"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:GRAVYScore -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;GRAVYScore">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000070"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:GlutamateCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;GlutamateCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:GlutamineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;GlutamineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:GlycineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;GlycineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:HistineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;HistineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:IsolectricPoint -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;IsolectricPoint">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000070"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:IsoleucineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;IsoleucineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:LeucineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;LeucineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:Location -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;Location">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000370"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:LysineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;LysineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:MethionineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;MethionineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:MolecularWeight -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;MolecularWeight">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000258"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:Pathway -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;Pathway">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010526"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:Phenotype_Experiment -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;Phenotype_Experiment">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000994"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:PhenylalanineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;PhenylalanineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:ProlineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;ProlineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:Protein -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;Protein">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010043"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:RNA -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;RNA">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010009"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:Reaction -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;Reaction">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010345"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:Record -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;Record">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000088"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:SequenceLength -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;SequenceLength">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000257"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:SerineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;SerineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:Superpathway -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;Superpathway">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010526"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:ThreonineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;ThreonineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:TryptophanCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;TryptophanCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:TyrosineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;TyrosineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/sgd_vocabulary:ValineCount -->
+
+    <rdf:Description rdf:about="&sgd_vocabulary;ValineCount">
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000794"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+

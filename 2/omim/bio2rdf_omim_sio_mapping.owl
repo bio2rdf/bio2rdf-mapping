@@ -27,6 +27,7 @@
      xmlns:omim_vocabulary="http://bio2rdf.org/omim_vocabulary:">
     <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_omim_sio_mapping.owl">
         <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+        <rdfs:comment xml:lang="en">OMIM Bi2RDF SIO Mapping</rdfs:comment>
         <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_omim_vocabulary.owl"/>
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
     </owl:Ontology>
@@ -597,7 +598,7 @@
     <!-- http://bio2rdf.org/omim_vocabulary:Allelic-Variant -->
 
     <rdf:Description rdf:about="&omim_vocabulary;Allelic-Variant">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000015"/>
+        <rdfs:subClassOf rdf:resource="&resource;SIO_001079"/>
     </rdf:Description>
     
 
@@ -613,7 +614,7 @@
     <!-- http://bio2rdf.org/omim_vocabulary:Clinical-Synopsis -->
 
     <rdf:Description rdf:about="&omim_vocabulary;Clinical-Synopsis">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000015"/>
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000136"/>
     </rdf:Description>
     
 

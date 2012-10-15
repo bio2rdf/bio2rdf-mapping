@@ -25,6 +25,7 @@
      xmlns:goa_vocabulary="http://bio2rdf.org/goa_vocabulary:">
     <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_goa_sio_mapping.owl">
         <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+        <rdfs:comment xml:lang="en">GO Annotations Bio2RDF SIO Mapping</rdfs:comment>
         <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_goa_vocabulary.owl"/>
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
     </owl:Ontology>
@@ -55,57 +56,57 @@
 
     <!-- http://bio2rdf.org/dataset_vocabulary:has_literal_count -->
 
-    <rdf:Description rdf:about="&dataset_vocabulary;has_literal_count">
+    <owl:ObjectProperty rdf:about="&dataset_vocabulary;has_literal_count">
         <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_unique_subject_unique_literal_count -->
 
-    <rdf:Description rdf:about="&dataset_vocabulary;has_predicate_unique_subject_unique_literal_count">
+    <owl:ObjectProperty rdf:about="&dataset_vocabulary;has_predicate_unique_subject_unique_literal_count">
         <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://bio2rdf.org/dataset_vocabulary:has_subject_count -->
 
-    <rdf:Description rdf:about="&dataset_vocabulary;has_subject_count">
+    <owl:ObjectProperty rdf:about="&dataset_vocabulary;has_subject_count">
         <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://bio2rdf.org/dataset_vocabulary:has_type_relation_type_count -->
 
-    <rdf:Description rdf:about="&dataset_vocabulary;has_type_relation_type_count">
+    <owl:ObjectProperty rdf:about="&dataset_vocabulary;has_type_relation_type_count">
         <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://bio2rdf.org/dataset_vocabulary:has_unique_subject_count -->
 
-    <rdf:Description rdf:about="&dataset_vocabulary;has_unique_subject_count">
+    <owl:ObjectProperty rdf:about="&dataset_vocabulary;has_unique_subject_count">
         <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://bio2rdf.org/goa_vocabulary:gene_symbol -->
 
-    <rdf:Description rdf:about="&goa_vocabulary;gene_symbol">
+    <owl:ObjectProperty rdf:about="&goa_vocabulary;gene_symbol">
         <rdfs:subPropertyOf rdf:resource="&resource;SIO_000671"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://bio2rdf.org/goa_vocabulary:go_term -->
 
-    <rdf:Description rdf:about="&goa_vocabulary;go_term">
+    <owl:ObjectProperty rdf:about="&goa_vocabulary;go_term">
         <rdfs:subPropertyOf rdf:resource="&resource;SIO_000671"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 

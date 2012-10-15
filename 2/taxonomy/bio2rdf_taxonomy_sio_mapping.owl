@@ -27,6 +27,7 @@
      xmlns:taxonomy_vocabulary="http://bio2rdf.org/taxonomy_vocabulary:">
     <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_taxonomy_sio_mapping.owl">
         <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+        <rdfs:comment xml:lang="en">NCBI Taxonomy Bio2RDF SIO Mapping</rdfs:comment>
         <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_taxonomy_vocabulary.owl"/>
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
     </owl:Ontology>
@@ -82,7 +83,7 @@
     <!-- http://bio2rdf.org/taxon_vocabulary:division -->
 
     <rdf:Description rdf:about="&taxon_vocabulary;division">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000616"/>
     </rdf:Description>
     
 
@@ -180,6 +181,12 @@
     <rdf:Description rdf:about="&taxon_vocabulary;unique_name">
         <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
     </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000616 -->
+
+    <owl:ObjectProperty rdf:about="&resource;SIO_000616"/>
     
 
 
