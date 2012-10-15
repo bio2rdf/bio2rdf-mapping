@@ -25,6 +25,7 @@
      xmlns:ndc_vocabulary="http://bio2rdf.org/ndc_vocabulary:">
     <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_ndc_sio_mapping.owl">
         <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
+        <rdfs:comment xml:lang="en">NDC Bio2RDF SIO Mapping</rdfs:comment>
         <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_ndc_vocabulary.owl"/>
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
     </owl:Ontology>
@@ -256,7 +257,7 @@
     <!-- http://bio2rdf.org/ndc_vocabulary:ingredient -->
 
     <rdf:Description rdf:about="&ndc_vocabulary;ingredient">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_010462"/>
     </rdf:Description>
     
 
@@ -333,6 +334,12 @@
     
 
 
+    <!-- http://semanticscience.org/resource/SIO_010462 -->
+
+    <owl:ObjectProperty rdf:about="&resource;SIO_010462"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -379,7 +386,7 @@
     <!-- http://bio2rdf.org/ndc_vocabulary:cellular-therapy -->
 
     <rdf:Description rdf:about="&ndc_vocabulary;cellular-therapy">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000006"/>
+        <rdfs:subClassOf rdf:resource="&resource;SIO_000999"/>
     </rdf:Description>
     
 
@@ -411,7 +418,7 @@
     <!-- http://bio2rdf.org/ndc_vocabulary:plasma-derivative -->
 
     <rdf:Description rdf:about="&ndc_vocabulary;plasma-derivative">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000004"/>
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010462"/>
     </rdf:Description>
     
 
@@ -427,7 +434,7 @@
     <!-- http://bio2rdf.org/ndc_vocabulary:vaccine -->
 
     <rdf:Description rdf:about="&ndc_vocabulary;vaccine">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000004"/>
+        <rdfs:subClassOf rdf:resource="&resource;SIO_010462"/>
     </rdf:Description>
 </rdf:RDF>
 
