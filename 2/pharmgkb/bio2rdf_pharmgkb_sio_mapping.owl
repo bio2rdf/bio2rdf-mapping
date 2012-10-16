@@ -61,9 +61,57 @@
     
 
 
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:drug -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;drug">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:gene -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;gene">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:haplotype -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;haplotype">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
     <!-- http://bio2rdf.org/pharmgkb_vocabulary:in-sider -->
 
     <rdf:Description rdf:about="&pharmgkb_vocabulary;in-sider">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:name -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;name">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:pd_relationship -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;pd_relationship">
+        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bio2rdf.org/pharmgkb_vocabulary:variantlocation -->
+
+    <rdf:Description rdf:about="&pharmgkb_vocabulary;variantlocation">
         <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
     </rdf:Description>
     
