@@ -25,58 +25,25 @@
         <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
     </Ontology>
   
-   <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:Endpoint">
+   <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Chemical">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
   </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Chemical-Gene-Association">
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Disease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Chemical-Disease-Association">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
   </rdf:Description>
   <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Gene-Disease-Association">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
   </rdf:Description>
-     <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_unique_predicate_count">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_type">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_predicate_literal_count">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_predicate_object_count">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_subject_count">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_type_relation_type_count">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_triple_count">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_unique_object_count">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_count">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_literal_count">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_predicate_unique_subject_unique_object_count">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_object_count">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/dataset_vocabulary:has_object_type">
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:chemical">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
   </rdf:Description>
   <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:pathway">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
   </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:gene">
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:disease">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
   </rdf:Description>
   

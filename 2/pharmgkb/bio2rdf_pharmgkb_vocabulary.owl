@@ -24,7 +24,24 @@
     <Ontology rdf:about="http://bio2rdf.org/bio2rdf_pharmgkb_vocabulary.owl">
         <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
     </Ontology>
-
+  <rdf:Description rdf:about="http://bio2rdf.org/pharmgkb_vocabulary:drug">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/pharmgkb_vocabulary:pd_relationship">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/pharmgkb_vocabulary:variantlocation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/pharmgkb_vocabulary:haplotype">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/pharmgkb_vocabulary:name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/pharmgkb_vocabulary:gene">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
 
     <rdf:Description rdf:about="http://bio2rdf.org/pharmgkb_vocabulary:in-sider">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
