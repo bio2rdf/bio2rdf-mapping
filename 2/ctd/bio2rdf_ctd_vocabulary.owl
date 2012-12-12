@@ -1,31 +1,8 @@
-<?xml version="1.0"?>
-
-
-<!DOCTYPE rdf:RDF [
-    <!ENTITY terms "http://purl.org/dc/terms/" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY ctd_vocabulary "http://bio2rdf.org/ctd_vocabulary:" >
-    <!ENTITY dataset_vocabulary "http://bio2rdf.org/dataset_vocabulary:" >
-    <!ENTITY resource "http://semanticscience.org/resource/" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
-<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.w3.org/2002/07/owl"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:resource="http://semanticscience.org/resource/"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:dataset_vocabulary="http://bio2rdf.org/dataset_vocabulary:"
-     xmlns:ctd_vocabulary="http://bio2rdf.org/ctd_vocabulary:">
-    <Ontology rdf:about="http://bio2rdf.org/bio2rdf_ctd_vocabulary.owl">
-        <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
-    </Ontology>
-  
-   <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Chemical">
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Chemical">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
   </rdf:Description>
   <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Disease">
@@ -37,7 +14,19 @@
   <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Gene-Disease-Association">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
   </rdf:Description>
-  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:chemical">
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Chemical-Gene-Association">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Gene">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+  </rdf:Description>
+<rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:action">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:gene-symbol">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+  </rdf:Description>
+<rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:chemical">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
   </rdf:Description>
   <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:pathway">
@@ -46,5 +35,22 @@
   <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:disease">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
   </rdf:Description>
-  
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:article">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:gene">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:is-participant-in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:is-located-in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:has-function">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:organism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+  </rdf:Description>
 </rdf:RDF>

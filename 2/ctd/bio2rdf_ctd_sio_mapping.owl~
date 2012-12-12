@@ -16,7 +16,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="http://www.bio2rdf.org/bio2rdf_ctd_sio_mapping.owl">
-        <owl:imports rdf:resource="file:./bio2rdf_ctd_vocabulary.owl"/>
+        <owl:imports rdf:resource="file:/home/alison/Documents/PhD/Projects/Bio2RDF/release_2_vocabulary/ctd/bio2rdf_ctd_vocabulary.owl"/>
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
     </owl:Ontology>
     
