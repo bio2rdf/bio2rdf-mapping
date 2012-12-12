@@ -2,44 +2,23 @@
 
 
 <!DOCTYPE rdf:RDF [
-    <!ENTITY terms "http://purl.org/dc/terms/" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY ndc_vocabulary "http://bio2rdf.org/ndc_vocabulary:" >
-    <!ENTITY resource "http://semanticscience.org/resource/" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY dataset_vocabulary "http://bio2rdf.org/dataset_vocabulary:" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
 ]>
 
 
-<rdf:RDF xmlns="http://bio2rdf.org/bio2rdf_ndc_sio_mapping.owl#"
-     xml:base="http://bio2rdf.org/bio2rdf_ndc_sio_mapping.owl"
-     xmlns:dataset_vocabulary="http://bio2rdf.org/dataset_vocabulary:"
+<rdf:RDF xmlns="http://www.bio2rdf.org/bio2rdf_ndc_sio_mapping.owl#"
+     xml:base="http://www.bio2rdf.org/bio2rdf_ndc_sio_mapping.owl"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:resource="http://semanticscience.org/resource/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:ndc_vocabulary="http://bio2rdf.org/ndc_vocabulary:">
-    <owl:Ontology rdf:about="http://bio2rdf.org/bio2rdf_ndc_sio_mapping.owl">
-        <terms:creator rdf:datatype="&xsd;Name">Jose Cruz-Toledo</terms:creator>
-        <rdfs:comment xml:lang="en">NDC Bio2RDF SIO Mapping</rdfs:comment>
-        <owl:imports rdf:resource="http://bio2rdf.org/bio2rdf_ndc_vocabulary.owl"/>
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.bio2rdf.org/bio2rdf_ndc_sio_mapping.owl">
+        <owl:imports rdf:resource="file:./bio2rdf_ndc_vocabulary.owl"/>
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
     </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
     
 
 
@@ -54,289 +33,126 @@
     
 
 
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_literal_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_literal_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_object_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_object_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_object_type -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_object_type">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_predicate">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_literal_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_predicate_literal_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_object_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_predicate_object_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_unique_subject_unique_literal_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_predicate_unique_subject_unique_literal_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_predicate_unique_subject_unique_object_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_predicate_unique_subject_unique_object_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_subject_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_subject_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_subject_type -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_subject_type">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_triple_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_triple_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_type -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_type">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_type_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_type_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_type_relation_type_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_type_relation_type_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_unique_object_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_unique_object_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_unique_predicate_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_unique_predicate_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_unique_subject_count -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_unique_subject_count">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/dataset_vocabulary:has_url -->
-
-    <rdf:Description rdf:about="&dataset_vocabulary;has_url">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/ndc_vocabulary:amount -->
-
-    <rdf:Description rdf:about="&ndc_vocabulary;amount">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
     <!-- http://bio2rdf.org/ndc_vocabulary:amount_unit -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;amount_unit">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/ndc_vocabulary:application-number -->
-
-    <rdf:Description rdf:about="&ndc_vocabulary;application-number">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    <owl:ObjectProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:amount_unit">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:dosage-form -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;dosage-form">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/ndc_vocabulary:end-marketing-date -->
-
-    <rdf:Description rdf:about="&ndc_vocabulary;end-marketing-date">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    <owl:ObjectProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:dosage-form">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:has-part -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;has-part">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    <owl:ObjectProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:has-part">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000028"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:ingredient -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;ingredient">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_010462"/>
-    </rdf:Description>
+    <owl:ObjectProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:ingredient">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:labeller -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;labeller">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/ndc_vocabulary:marketing-category -->
-
-    <rdf:Description rdf:about="&ndc_vocabulary;marketing-category">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://bio2rdf.org/ndc_vocabulary:non-proprietary-name -->
-
-    <rdf:Description rdf:about="&ndc_vocabulary;non-proprietary-name">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    <owl:ObjectProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:labeller">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:package -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;package">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    <owl:ObjectProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:package">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:pharmagocological-class -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;pharmagocological-class">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    <owl:ObjectProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:pharmagocological-class">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:route -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;route">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    <owl:ObjectProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:route">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bio2rdf.org/ndc_vocabulary:amount -->
+
+    <owl:DatatypeProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:amount"/>
+    
+
+
+    <!-- http://bio2rdf.org/ndc_vocabulary:application-number -->
+
+    <owl:DatatypeProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:application-number"/>
+    
+
+
+    <!-- http://bio2rdf.org/ndc_vocabulary:end-marketing-date -->
+
+    <owl:DatatypeProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:end-marketing-date"/>
+    
+
+
+    <!-- http://bio2rdf.org/ndc_vocabulary:marketing-category -->
+
+    <owl:DatatypeProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:marketing-category"/>
+    
+
+
+    <!-- http://bio2rdf.org/ndc_vocabulary:non-proprietary-name -->
+
+    <owl:DatatypeProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:non-proprietary-name"/>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:start-marketing-date -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;start-marketing-date">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    <owl:DatatypeProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:start-marketing-date"/>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:trade-name -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;trade-name">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
+    <owl:DatatypeProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:trade-name"/>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:trade-name-suffix -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;trade-name-suffix">
-        <rdfs:subPropertyOf rdf:resource="&resource;SIO_000008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://semanticscience.org/resource/SIO_010462 -->
-
-    <owl:ObjectProperty rdf:about="&resource;SIO_010462"/>
+    <owl:DatatypeProperty rdf:about="http://bio2rdf.org/ndc_vocabulary:trade-name-suffix"/>
     
 
 
@@ -353,92 +169,90 @@
 
     <!-- http://bio2rdf.org/ndc_vocabulary:Ingredient -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;Ingredient">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000004"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://bio2rdf.org/ndc_vocabulary:Ingredient">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_010338"/>
+    </owl:Class>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:Labeller -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;Labeller">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000004"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://bio2rdf.org/ndc_vocabulary:Labeller"/>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:Product -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;Product">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_010363"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://bio2rdf.org/ndc_vocabulary:Product">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_011126"/>
+    </owl:Class>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:Substance -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;Substance">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000004"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://bio2rdf.org/ndc_vocabulary:Substance">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_011126"/>
+    </owl:Class>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:cellular-therapy -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;cellular-therapy">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000999"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://bio2rdf.org/ndc_vocabulary:cellular-therapy">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_010046"/>
+    </owl:Class>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:human-otc-drug -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;human-otc-drug">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_000006"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://bio2rdf.org/ndc_vocabulary:human-otc-drug">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_010038"/>
+    </owl:Class>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:human-prescription-drug -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;human-prescription-drug">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_010038"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://bio2rdf.org/ndc_vocabulary:human-prescription-drug">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_010038"/>
+    </owl:Class>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:non-standardized-allergenic -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;non-standardized-allergenic">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_010004"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://bio2rdf.org/ndc_vocabulary:non-standardized-allergenic">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_011126"/>
+    </owl:Class>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:plasma-derivative -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;plasma-derivative">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_010462"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://bio2rdf.org/ndc_vocabulary:plasma-derivative">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_011126"/>
+    </owl:Class>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:standardized-allergenic -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;standardized-allergenic">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_010004"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://bio2rdf.org/ndc_vocabulary:standardized-allergenic">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_011126"/>
+    </owl:Class>
     
 
 
     <!-- http://bio2rdf.org/ndc_vocabulary:vaccine -->
 
-    <rdf:Description rdf:about="&ndc_vocabulary;vaccine">
-        <rdfs:subClassOf rdf:resource="&resource;SIO_010462"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://bio2rdf.org/ndc_vocabulary:vaccine">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_010462"/>
+    </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
 
