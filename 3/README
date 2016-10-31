@@ -1,0 +1,5 @@
+Mappings created using a (semi)automated procedure to generate high quality mappings between Bio2RDF and SIO. Specifically, Bio2RDF-SIO mappings are inferred 
+by mapping Bio2RDF and SIO classes to biomedical ontologies contained in the NCBO BioPortal, and consequently use their hierarchies to find indirect Bio2RDF 
+type to SIO class mappings.  
+Paper: http://ceur-ws.org/Vol-1709/BMDID_2016_paper_11.pdf
+Presentation: http://www.slideshare.net/micheldumontier/2016-bmdidmappings
